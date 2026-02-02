@@ -1,0 +1,32 @@
+permissionset 14304104 QAPermission
+{
+    Assignable = true;
+    Permissions = tabledata "Item Restriction Entry" = RIMD,
+        tabledata "Item Restrictions" = RIMD,
+        tabledata "QA-Warehouse Activity Line" = RIMD,
+        tabledata "Restriction User Setup" = RIMD,
+        tabledata "Warehouse Item Restriction" = RIMD,
+        tabledata "Warehouse Restriction" = RIMD,
+        tabledata "Warehouse Restriction Status" = RIMD,
+        table "Item Restriction Entry" = X,
+        table "Item Restrictions" = X,
+        table "QA-Warehouse Activity Line" = X,
+        table "Restriction User Setup" = X,
+        table "Warehouse Item Restriction" = X,
+        table "Warehouse Restriction" = X,
+        table "Warehouse Restriction Status" = X,
+        codeunit "QA Event Subscriber" = X,
+        codeunit "QA Management" = X,
+        page "Item Restriction Entries" = X,
+        page "Item Restrictions" = X,
+        page "Reclass Item Restrictions" = X,
+        page "Restrict Lot" = X,
+        page "Restriction User Setup" = X,
+        page "Warehouse Item Restrictions" = X,
+        page "Warehouse Restriction Status" = X,
+        page "Warehouse Restrictions" = X,
+        codeunit "QA Single Instance" = X,
+        page "QA Split - Merge Lot No." = X,
+        report "Block Expired Lots" = X,
+        report "Update Lot Restriction" = X;
+}

@@ -1,0 +1,9 @@
+# BC App packages
+*.app
+# Symbols (The heavy metadata files)
+.alpackages/
+# User-specific settings (local server info)
+launch.json
+# VS Code cache
+.vscode/*
+!.vscode/settings.json
