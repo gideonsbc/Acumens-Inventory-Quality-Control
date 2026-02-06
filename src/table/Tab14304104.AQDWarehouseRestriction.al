@@ -59,7 +59,7 @@ table 14304104 "AQD Warehouse Restriction"
     var
         RestrictionUserSetup: Record "AQD Restriction User Setup";
     begin
-        RestrictionUserSetup.Get(UserId);
-        RestrictionUserSetup.TestField(Admin);
+        if RestrictionUserSetup.Get(UserId) then
+            RestrictionUserSetup.TestField(Admin);
     end;
 }
