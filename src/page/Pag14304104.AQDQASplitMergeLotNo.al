@@ -206,8 +206,8 @@ page 14304104 "AQD QA Split - Merge Lot No."
         if SpQty <> 0 then begin
             WhseSetup.Get;
             Item.Get(Rec."Item No.");
-            WhseSetup.TestField("AQD Split Lot Warehouse Batch Name");
-            WhseSetup.TestField("AQD Split Lot Whse Template Name");
+            WhseSetup.TestField("AQD Split Lot Whse Batch Name");
+            WhseSetup.TestField("AQD Split Lot Whse Temp. Name");
             if not VSetMerge then
                 if not NewLotNoInfo.Get(Rec."Item No.", Rec."Variant Code", NewLot) then begin
                     NewLotNoInfo.Init();
@@ -217,19 +217,19 @@ page 14304104 "AQD QA Split - Merge Lot No."
                     NewLotNoInfo."AQD Last Split No." := '';
                     NewLotNoInfo.Insert();
                 end;
-            WhsJnlTemplate.Get(WhseSetup."AQD Split Lot Whse Template Name");
+            WhsJnlTemplate.Get(WhseSetup."AQD Split Lot Whse Temp. Name");
             ResEntry.SetRange(ResEntry."Source Type", 83);
             ResEntry.SetRange("Source Subtype", 4);
-            ResEntry.SetRange("Source ID", WhseSetup."AQD Split Lot Warehouse Batch Name");
-            ResEntry.SetRange("Source Batch Name", WhseSetup."AQD Split Lot Whse Template Name");
+            ResEntry.SetRange("Source ID", WhseSetup."AQD Split Lot Whse Batch Name");
+            ResEntry.SetRange("Source Batch Name", WhseSetup."AQD Split Lot Whse Temp. Name");
             ResEntry.DeleteAll();
-            WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD Split Lot Whse Template Name");
-            WhsJnlLine.SetRange("Journal Batch Name", WhseSetup."AQD Split Lot Warehouse Batch Name");
+            WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD Split Lot Whse Temp. Name");
+            WhsJnlLine.SetRange("Journal Batch Name", WhseSetup."AQD Split Lot Whse Batch Name");
             WhsJnlLine.DeleteAll(true);
-            WhsJnlBatch.Get(WhseSetup."AQD Split Lot Whse Template Name", WhseSetup."AQD Split Lot Warehouse Batch Name", LocationCode);
+            WhsJnlBatch.Get(WhseSetup."AQD Split Lot Whse Temp. Name", WhseSetup."AQD Split Lot Whse Batch Name", LocationCode);
             WhsJnlLine.Init();
-            WhsJnlLine."Journal Template Name" := WhseSetup."AQD Split Lot Whse Template Name";
-            WhsJnlLine."Journal Batch Name" := WhseSetup."AQD Split Lot Warehouse Batch Name";
+            WhsJnlLine."Journal Template Name" := WhseSetup."AQD Split Lot Whse Temp. Name";
+            WhsJnlLine."Journal Batch Name" := WhseSetup."AQD Split Lot Whse Batch Name";
             WhsJnlLine."Location Code" := LocationCode;
             WhsJnlLine."Line No." := 10000;
             WhsJnlLine."Registering Date" := WorkDate();

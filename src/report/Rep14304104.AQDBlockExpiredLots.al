@@ -32,7 +32,7 @@ report 14304104 "AQD Block Expired Lots"
                                     Blocked := true;
                                     Modify();
                                 end;
-                                if Location."AQD QA. Zone" <> '' then if WhseSetup."AQD Create Rest. for Expired Lot" then RestrictLot(Location.Code, "Lot No. Information", WhseSetup."AQD Expired Lot Restriction Code", WhseSetup."AQD Expired Lot Restriction Status");
+                                if Location."AQD QA. Zone" <> '' then if WhseSetup."AQD CreateRest. forExpired Lot" then RestrictLot(Location.Code, "Lot No. Information", WhseSetup."AQD Expired Lot Restr. Code", WhseSetup."AQD Expired Lot Restr. Status");
                             end;
                         until Location.Next() = 0;
                 end;

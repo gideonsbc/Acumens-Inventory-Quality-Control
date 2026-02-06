@@ -648,6 +648,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control Log To History - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3898991482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Warehouse Restrictions action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action AQD Warehouse Restrictions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3898991482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action AQD Warehouse Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 2935861323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Warehouse Restriction Status action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action AQD WarehouseRestrictionStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 2935861323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action AQD WarehouseRestrictionStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 991224529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Item Journal Templates action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Item Journal Templates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 991224529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Item Journal Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3264503566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Locations action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Location Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3264503566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Location Setup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1838609307 - Action 311158110 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Restriction User Setup action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -667,6 +707,16 @@
           <source>Warehouse Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Warehouse Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 1421138223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Whse. Journal Templates action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Whse. Journal Templates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 1421138223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Whse. Journal Templates - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Action 1833103207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the About Acumens Inventory Quality Control page.</source>
@@ -688,9 +738,14 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Delete Acumens Inventory Quality Control Setups - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1838609307 - Action 278110413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>About</source>
-          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 4.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Category_New - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -2488,30 +2543,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Allow Partial Release - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 3824485143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 592972175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Create Restrictions for Expired Lot.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Create Rest. for Expired Lot - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD CreateRest. forExpired Lot - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 1600514255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 1571610847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Expired Lot Restriction Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Expired Lot Restriction Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Expired Lot Restr. Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 4059237168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 1082724192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Expired Lot Restriction Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Expired Lot Restriction Status - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Expired Lot Restr. Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 4170017238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 560673054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Inventory Counts Restriction Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Inv. Counts Restriction Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Inv. Counts Restr. Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 1475812805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 1106321949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Inventory Counts Restriction Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Inv. Counts Restriction Status - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Inv. Counts Restr. Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2084312650 - Field 3707679859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>QA. Batch Name</source>
@@ -2528,10 +2583,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD QA. Warehouse Batch Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 1358807316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 821587360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>QA. Warehouse Template Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD QA. Warehouse Template Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD QA. Whse Template Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2084312650 - Field 523126742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Split Lot Batch Name</source>
@@ -2543,15 +2598,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Template Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 1878378401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 1028257053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Split Lot Warehouse Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Warehouse Batch Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Whse Batch Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2084312650 - Field 1697216849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
+        <trans-unit id="TableExtension 2084312650 - Field 2200170775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3213244558">
           <source>Split Lot Warehouse Template Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Whse Template Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Whse Temp. Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3883504990 - Field 869174016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2211191610">
           <source>QA. Zone</source>

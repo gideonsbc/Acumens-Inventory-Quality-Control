@@ -19,13 +19,13 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
                     Caption = 'Split Lot Batch Name';
                     ToolTip = 'Specifies the value of the Split Lot Batch Name field.';
                 }
-                field("AQD Split Lot Whse Template Name"; Rec."AQD Split Lot Whse Template Name")
+                field("AQD Split Lot Whse Template Name"; Rec."AQD Split Lot Whse Temp. Name")
                 {
                     ApplicationArea = All;
                     Caption = 'Split Lot Warehouse Template Name';
                     ToolTip = 'Specifies the value of the Split Lot Warehouse Template Name field.';
                 }
-                field("AQD Split Lot Warehouse Batch Name"; Rec."AQD Split Lot Warehouse Batch Name")
+                field("AQD Split Lot Warehouse Batch Name"; Rec."AQD Split Lot Whse Batch Name")
                 {
                     ApplicationArea = All;
                     Caption = 'Split Lot Warehouse Batch Name';
@@ -43,7 +43,7 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
                     Caption = 'QA. Batch Name';
                     ToolTip = 'Specifies the value of the QA. Batch Name field.';
                 }
-                field("AQD QA. Warehouse Template Name"; Rec."AQD QA. Warehouse Template Name")
+                field("AQD QA. Warehouse Template Name"; Rec."AQD QA. Whse Template Name")
                 {
                     ApplicationArea = All;
                     Caption = 'QA. Warehouse Template Name';
@@ -67,31 +67,31 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
                     Caption = 'Allow Partial Release';
                     ToolTip = 'Specifies the value of the Allow Partial Release field.';
                 }
-                field("AQD Inv. Counts Restriction Status"; Rec."AQD Inv. Counts Restriction Status")
+                field("AQD Inv. Counts Restriction Status"; Rec."AQD Inv. Counts Restr. Status")
                 {
                     ApplicationArea = All;
                     Caption = 'Inventory Counts Restriction Status';
                     ToolTip = 'Specifies the value of the Inventory Counts Restriction Status field.';
                 }
-                field("AQD Inv. Counts Restriction Code"; Rec."AQD Inv. Counts Restriction Code")
+                field("AQD Inv. Counts Restriction Code"; Rec."AQD Inv. Counts Restr. Code")
                 {
                     ApplicationArea = All;
                     Caption = 'Inventory Counts Restriction Code';
                     ToolTip = 'Specifies the value of the Inventory Counts Restriction Code field.';
                 }
-                field("AQD Create Rest. for Expired Lot"; Rec."AQD Create Rest. for Expired Lot")
+                field("AQD Create Rest. for Expired Lot"; Rec."AQD CreateRest. forExpired Lot")
                 {
                     ApplicationArea = All;
                     Caption = 'Create Restrictions for Expired Lot.';
                     ToolTip = 'Specifies the value of the Create Restrictions for Expired Lot. field.';
                 }
-                field("AQD Expired Lot Restriction Status"; Rec."AQD Expired Lot Restriction Status")
+                field("AQD Expired Lot Restriction Status"; Rec."AQD Expired Lot Restr. Status")
                 {
                     ApplicationArea = All;
                     Caption = 'Expired Lot Restriction Status';
                     ToolTip = 'Specifies the value of the Expired Lot Restriction Status field.';
                 }
-                field("AQD Expired Lot Restriction Code"; Rec."AQD Expired Lot Restriction Code")
+                field("AQD Expired Lot Restriction Code"; Rec."AQD Expired Lot Restr. Code")
                 {
                     ApplicationArea = All;
                     Caption = 'Expired Lot Restriction Code';

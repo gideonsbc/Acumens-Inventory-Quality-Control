@@ -26,7 +26,7 @@ codeunit 14304105 "AQD QA Event Subscriber"
                 WarehouseJournalLine.SetRange("Journal Batch Name", WarehouseJournalLine."Journal Batch Name");
                 if WarehouseJournalLine.FindSet() then
                     repeat
-                        IF (WarehouseJournalLine."Entry Type" = WarehouseJournalLine."Entry Type"::Movement) AND (WarehouseJournalLine."Journal Batch Name" = WhseSetup."AQD QA. Warehouse Batch Name") and (WarehouseJournalLine."Journal Template Name" = WhseSetup."AQD QA. Warehouse Template Name") then exit;
+                        IF (WarehouseJournalLine."Entry Type" = WarehouseJournalLine."Entry Type"::Movement) AND (WarehouseJournalLine."Journal Batch Name" = WhseSetup."AQD QA. Warehouse Batch Name") and (WarehouseJournalLine."Journal Template Name" = WhseSetup."AQD QA. Whse Template Name") then exit;
                         WhseItemTrackingLine.SetRange("Source Batch Name", WarehouseJournalLine."Journal Template Name");
                         WhseItemTrackingLine.SetRange("Source ID", WarehouseJournalLine."Journal Batch Name");
                         WhseItemTrackingLine.SetRange("Location Code", WarehouseJournalLine."Location Code");
@@ -478,7 +478,7 @@ codeunit 14304105 "AQD QA Event Subscriber"
                 ItemRestrictions.SetRange("Initial Entry", false);
                 if ItemRestrictions.FindFirst() then
                     if WhseJnlLine.Get(Rec."Source Batch Name", Rec."Source ID", Rec."Location Code", Rec."Source Ref. No.") then begin
-                        IF (WhseJnlLine."Entry Type" = WhseJnlLine."Entry Type"::Movement) AND (WhseJnlLine."Journal Batch Name" = WhseSetup."AQD QA. Warehouse Batch Name") and (WhseJnlLine."Journal Template Name" = WhseSetup."AQD QA. Warehouse Template Name") then exit;
+                        IF (WhseJnlLine."Entry Type" = WhseJnlLine."Entry Type"::Movement) AND (WhseJnlLine."Journal Batch Name" = WhseSetup."AQD QA. Warehouse Batch Name") and (WhseJnlLine."Journal Template Name" = WhseSetup."AQD QA. Whse Template Name") then exit;
                         Location.Get(Rec."Location Code");
                         Bin.Get(Rec."Location Code", WhseJnlLine."From Bin Code");
                         if not Bin."AQD Restrict Item" then begin
