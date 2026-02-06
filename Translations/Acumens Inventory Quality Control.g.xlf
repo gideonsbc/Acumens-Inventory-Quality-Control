@@ -623,6 +623,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1838609307 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to automatically Initialize default Acumens Inventory Quality Control Setups?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Setups Initialized Successfully!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting Setup Card will delete all Acumens Inventory Quality Control specific Setups. Proceed?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - NamedType Text003</note>
+        </trans-unit>
         <trans-unit id="Page 1838609307 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
