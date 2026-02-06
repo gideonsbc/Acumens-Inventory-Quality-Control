@@ -452,10 +452,10 @@ codeunit 14304104 "AQD QA Management"
                                         if Bin.Get(WarehouseEntry."Location Code", WarehouseEntry."Bin Code") then
                                             if Bin."Zone Code" = Location."AQD QA. Zone" then begin
                                                 WhseSetup.Get();
-                                                WhseSetup.TestField("AQD Inv. Counts Restriction Code");
-                                                WhseSetup.TestField("AQD Inv. Counts Restriction Status");
-                                                RestrictionCode := WhseSetup."AQD Inv. Counts Restriction Code";
-                                                RestrictionStatus := WhseSetup."AQD Inv. Counts Restriction Status";
+                                                WhseSetup.TestField("AQD Inv. Counts Restr. Code");
+                                                WhseSetup.TestField("AQD Inv. Counts Restr. Status");
+                                                RestrictionCode := WhseSetup."AQD Inv. Counts Restr. Code";
+                                                RestrictionStatus := WhseSetup."AQD Inv. Counts Restr. Status";
                                                 ItemRestrictions.SetRange("Item No.", WarehouseEntry."Item No.");
                                                 ItemRestrictions.SetRange("Variant Code", WarehouseEntry."Variant Code");
                                                 ItemRestrictions.SetRange("Lot No.", WarehouseEntry."Lot No.");
@@ -508,8 +508,8 @@ codeunit 14304104 "AQD QA Management"
                                         if Bin.Get(WarehouseEntry."Location Code", WarehouseEntry."Bin Code") then
                                             if Bin."Zone Code" = Location."AQD QA. Zone" then begin
                                                 WhseSetup.Get();
-                                                WhseSetup.TestField("AQD Inv. Counts Restriction Code");
-                                                WhseSetup.TestField("AQD Inv. Counts Restriction Status");
+                                                WhseSetup.TestField("AQD Inv. Counts Restr. Code");
+                                                WhseSetup.TestField("AQD Inv. Counts Restr. Status");
                                                 ItemRestrictions.SetRange("Item No.", WarehouseEntry."Item No.");
                                                 ItemRestrictions.SetRange("Variant Code", WarehouseEntry."Variant Code");
                                                 ItemRestrictions.SetRange("Lot No.", WarehouseEntry."Lot No.");
@@ -786,9 +786,9 @@ codeunit 14304104 "AQD QA Management"
         WhsJnlLine: Record "Warehouse Journal Line";
     begin
         WhseSetup.Get;
-        WhseSetup.TestField("AQD QA. Warehouse Template Name");
+        WhseSetup.TestField("AQD QA. Whse Template Name");
         WhseSetup.TestField("AQD QA. Warehouse Batch Name");
-        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Warehouse Template Name");
+        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Whse Template Name");
         WhsJnlLine.SetRange("Journal Batch Name", WhseSetup."AQD QA. Warehouse Batch Name");
         WhsJnlLine.SetRange("Location Code", LocationCode);
         if WhsJnlLine.FindLast() then WhsJnlLine.DeleteAll();
@@ -810,17 +810,17 @@ codeunit 14304104 "AQD QA Management"
         EntryNo: Integer;
     begin
         WhseSetup.Get;
-        WhseSetup.TestField("AQD QA. Warehouse Template Name");
+        WhseSetup.TestField("AQD QA. Whse Template Name");
         WhseSetup.TestField("AQD QA. Warehouse Batch Name");
         LineNo := 10000;
-        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Warehouse Template Name");
+        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Whse Template Name");
         WhsJnlLine.SetRange("Journal Batch Name", WhseSetup."AQD QA. Warehouse Batch Name");
         WhsJnlLine.SetRange("Location Code", LocationCode);
         if WhsJnlLine.FindLast() then LineNo := WhsJnlLine."Line No." + 10000;
-        WhsJnlTemplate.Get(WhseSetup."AQD QA. Warehouse Template Name");
-        WhsJnlBatch.Get(WhseSetup."AQD QA. Warehouse Template Name", WhseSetup."AQD QA. Warehouse Batch Name", LocationCode);
+        WhsJnlTemplate.Get(WhseSetup."AQD QA. Whse Template Name");
+        WhsJnlBatch.Get(WhseSetup."AQD QA. Whse Template Name", WhseSetup."AQD QA. Warehouse Batch Name", LocationCode);
         WhsJnlLine.Init();
-        WhsJnlLine."Journal Template Name" := WhseSetup."AQD QA. Warehouse Template Name";
+        WhsJnlLine."Journal Template Name" := WhseSetup."AQD QA. Whse Template Name";
         WhsJnlLine."Journal Batch Name" := WhseSetup."AQD QA. Warehouse Batch Name";
         WhsJnlLine.Validate("Location Code", LocationCode);
         WhsJnlLine."Line No." := LineNo;
@@ -913,9 +913,9 @@ codeunit 14304104 "AQD QA Management"
     begin
         WhseSetup.Get;
         WhseSetup.TestField("AQD QA. Warehouse Batch Name");
-        WhseSetup.TestField("AQD QA. Warehouse Template Name");
+        WhseSetup.TestField("AQD QA. Whse Template Name");
         QASingleInstance.SetQARestriction(true);
-        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Warehouse Template Name");
+        WhsJnlLine.SetRange("Journal Template Name", WhseSetup."AQD QA. Whse Template Name");
         WhsJnlLine.SetRange("Journal Batch Name", WhseSetup."AQD QA. Warehouse Batch Name");
         if WhsJnlLine.FindFirst() then begin
             WhseJnlRegisterBatch.SetSuppressCommit(true);

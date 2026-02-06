@@ -189,11 +189,11 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             WarehouseSetup.Init();
             WarehouseSetup."AQD QA. Template Name" := '';
             WarehouseSetup."AQD Split Lot Batch Name" := '';
-            WarehouseSetup."AQD QA. Warehouse Template Name" := '';
-            WarehouseSetup."AQD Split Lot Whse Template Name" := '';
+            WarehouseSetup."AQD QA. Whse Template Name" := '';
+            WarehouseSetup."AQD Split Lot Whse Temp. Name" := '';
             WarehouseSetup."AQD QA. Batch Name" := '';
             WarehouseSetup."AQD QA. Template Name" := '';
-            WarehouseSetup."AQD QA. Warehouse Template Name" := '';
+            WarehouseSetup."AQD QA. Whse Template Name" := '';
             WarehouseSetup."AQD QA. Warehouse Batch Name" := '';
             WarehouseSetup.Insert();
         end;

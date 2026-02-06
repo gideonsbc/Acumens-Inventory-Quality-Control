@@ -162,7 +162,7 @@ page 14304107 "AQD Item Restrictions"
         }
         area(factboxes)
         {
-            part("POAttached Documents2"; "Document Attachment Factbox")
+            part("POAttached Documents2"; "Doc. Attachment List Factbox")
             {
                 ApplicationArea = All;
                 Caption = 'Attachments';
@@ -170,7 +170,7 @@ page 14304107 "AQD Item Restrictions"
                 Enabled = VAttachPrO;
                 Visible = VAttachPrO;
             }
-            part("PROAttached Documents2"; "Document Attachment Factbox")
+            part("PROAttached Documents2"; "Doc. Attachment List Factbox")
             {
                 ApplicationArea = All;
                 Caption = 'Attachments';
@@ -529,8 +529,8 @@ page 14304107 "AQD Item Restrictions"
                 begin
                     TempItemRestrictions.DeleteAll();
                     WarehouseSetup.Get();
-                    WarehouseSetup.TestField("AQD Inv. Counts Restriction Code");
-                    WarehouseSetup.TestField("AQD Inv. Counts Restriction Status");
+                    WarehouseSetup.TestField("AQD Inv. Counts Restr. Code");
+                    WarehouseSetup.TestField("AQD Inv. Counts Restr. Status");
                     Location.SetFilter("AQD QA. Zone", '<>%1', '');
                     if Location.FindSet() then
                         repeat
@@ -557,8 +557,8 @@ page 14304107 "AQD Item Restrictions"
                                         TempItemRestrictions."Item No." := WarehouseEntry."Item No.";
                                         TempItemRestrictions."Variant Code" := WarehouseEntry."Variant Code";
                                         TempItemRestrictions."Lot No." := WarehouseEntry."Lot No.";
-                                        TempItemRestrictions."Restriction Code" := WarehouseSetup."AQD Inv. Counts Restriction Code";
-                                        TempItemRestrictions."Restriction Status" := WarehouseSetup."AQD Inv. Counts Restriction Status";
+                                        TempItemRestrictions."Restriction Code" := WarehouseSetup."AQD Inv. Counts Restr. Code";
+                                        TempItemRestrictions."Restriction Status" := WarehouseSetup."AQD Inv. Counts Restr. Status";
                                         TempItemRestrictions."Line No." := WarehouseEntry."Whse. Document Line No.";
                                         TempItemRestrictions."Location Code" := WarehouseEntry."Location Code";
                                         TempItemRestrictions."Release Bin Code" := QAManagment.ReplaceString(WarehouseEntry."Bin Code", '-Q', '');
@@ -596,7 +596,7 @@ page 14304107 "AQD Item Restrictions"
                                     RemQty += ItemRestrictions."Remaining Qty.";
                                 until ItemRestrictions.Next() = 0;
                             if RemQty < TempItemRestrictions.Quantity then begin
-                                QAManagment.SetRestriction(TempItemRestrictions."Item No.", TempItemRestrictions."Variant Code", TempItemRestrictions."Lot No.", TempItemRestrictions."Location Code", TempItemRestrictions."Release Bin Code", TempItemRestrictions."Document No.", TempItemRestrictions."Line No.", TempItemRestrictions."Document No.", TempItemRestrictions.Quantity - RemQty, (TempItemRestrictions.Quantity - RemQty) * TempItemRestrictions."Qty. per Unit of Measure", TempItemRestrictions."Unit of Measure Code", TempItemRestrictions."Qty. per Unit of Measure", TempItemRestrictions."QA. Bin Code", WarehouseSetup."AQD Inv. Counts Restriction Code", WarehouseSetup."AQD Inv. Counts Restriction Status", false, EmptGuid, EmptGuid)
+                                QAManagment.SetRestriction(TempItemRestrictions."Item No.", TempItemRestrictions."Variant Code", TempItemRestrictions."Lot No.", TempItemRestrictions."Location Code", TempItemRestrictions."Release Bin Code", TempItemRestrictions."Document No.", TempItemRestrictions."Line No.", TempItemRestrictions."Document No.", TempItemRestrictions.Quantity - RemQty, (TempItemRestrictions.Quantity - RemQty) * TempItemRestrictions."Qty. per Unit of Measure", TempItemRestrictions."Unit of Measure Code", TempItemRestrictions."Qty. per Unit of Measure", TempItemRestrictions."QA. Bin Code", WarehouseSetup."AQD Inv. Counts Restr. Code", WarehouseSetup."AQD Inv. Counts Restr. Status", false, EmptGuid, EmptGuid)
                             end
                             else if RemQty > TempItemRestrictions.Quantity then begin
                                 RemQty := RemQty - TempItemRestrictions.Quantity;
