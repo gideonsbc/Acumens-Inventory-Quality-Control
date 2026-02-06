@@ -1,5 +1,6 @@
 // SBC. 2026-02-06. 
-// It is not advisable to delete journal templates because it may have been used for postings. Therefore, this section was disabled for ready production.
+// It is not advisable to delete journal templates after initializing because it may have been used for postings. 
+// Therefore, journal templates deletion section was disabled for ready production.
 page 14304114 "AQD Acumens Inventory QC Setup"
 {
     ApplicationArea = All;
@@ -180,6 +181,9 @@ page 14304114 "AQD Acumens Inventory QC Setup"
     end;
 
     var
+        Text001: Label 'Do you want to automatically Initialize default Acumens Inventory Quality Control Setups?';
+        Text002: Label 'Default Setups Initialized Successfully!';
+        Text003: Label 'Deleting Setup Card will delete all Acumens Inventory Quality Control specific Setups. Proceed?';
         AcumensInventoryQCSetup: Record "AQD Acumens Inventory QC Setup";
         AERAccessMgt: Codeunit "AQD Inventory QC Access Mgt.";
         RestrictionUserSetup: Record "AQD Restriction User Setup";
@@ -194,7 +198,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
 
     local procedure InitDefaultSetup();
     begin
-        if Confirm('Do you want to automatically Initialize default Acumens Inventory Quality Control Setups?') then begin
+        if Confirm(Text001) then begin
             Rec."AQD Enabled" := true;
             Rec."AQD Log To History" := true;
             Rec."AQD Setup Initialized By" := UserId;
@@ -210,7 +214,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
 
             AssignWarehouseSetup();
         end;
-        Message('Default Setups Initialized Successfully!');
+        Message(Text002);
     end;
 
     local procedure InitializeRestrictionUserSetup();
@@ -405,7 +409,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
 
     local procedure DeleteAllSetups();
     begin
-        if not Confirm('Deleting Setup Card will delete all Acumens Inventory Quality Control specific Setups. Proceed?', false) then
+        if not Confirm(Text003, false) then
             exit;
 
         //Delete Acumens Restriction User Setups
