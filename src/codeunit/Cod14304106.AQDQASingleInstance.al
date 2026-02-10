@@ -80,6 +80,19 @@ codeunit 14304106 "AQD QA Single Instance"
         exit(Reclass);
     end;
 
+    procedure IsInventoryQualityControlEnabled(): Boolean
+    begin
+        AcumensInventoryQCSetup.Reset();
+
+        AQDInventoryQCAccessMgt.AccessManager('AIQC01', true, false);
+
+        if not AcumensInventoryQCSetup.Get() then
+            exit(false)
+        else begin
+            exit(AcumensInventoryQCSetup."AQD Enabled");
+        end;
+    end;
+
     var
         TempLotInfo: Record "Lot No. Information" temporary;
         ShowQABin: Boolean;
@@ -88,4 +101,5 @@ codeunit 14304106 "AQD QA Single Instance"
         QABin: Boolean;
         JnlLineNo: Integer;
         AcumensInventoryQCSetup: Record "AQD Acumens Inventory QC Setup";
+        AQDInventoryQCAccessMgt: Codeunit "AQD Inventory QC Access Mgt.";
 }

@@ -609,7 +609,7 @@ codeunit 14304104 "AQD QA Management"
         ItemRestrictionEntry."Unit of Measure Code" := UOM;
         ItemRestrictionEntry."Unit Cost" := Item."Standard Cost";
         ItemRestrictionEntry.Amount := Item."Standard Cost" * Qty;
-        ItemRestrictionEntry."Transaction DateTime" := CurrentDateTime;
+        ItemRestrictionEntry."Transaction Date" := Today; //replaced CurrentDateTime with Today as dates for QA Checklist Compliance
         if IsNullGuid(InitialRestrictionID) then
             ItemRestrictionEntry."Initial Restriction ID" := ItemRestrictions."Restriction ID"
         else
@@ -653,7 +653,7 @@ codeunit 14304104 "AQD QA Management"
         ItemRestrictionEntry."Unit Cost" := Item."Standard Cost";
         ItemRestrictionEntry.Amount := Item."Standard Cost" * ItemRestrictions."Qty. to Handle";
         ItemRestrictionEntry."Unit of Measure Code" := ItemRestrictions."Unit of Measure Code";
-        ItemRestrictionEntry."Transaction DateTime" := CurrentDateTime;
+        ItemRestrictionEntry."Transaction Date" := Today; //replaced CurrentDateTime with Today as dates for QA Checklist Compliance
         ItemRestrictionEntry."Initial Restriction ID" := ItemRestrictions."Initial Restriction ID";
         ItemRestrictionEntry."Location Code" := ItemRestrictions."Location Code";
         ItemRestrictionEntry."QA. Bin Code" := ItemRestrictions."QA. Bin Code";

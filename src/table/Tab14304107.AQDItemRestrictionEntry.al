@@ -74,9 +74,10 @@ table 14304107 "AQD Item Restriction Entry"
             CalcFormula = lookup(User."User Name" where("User Security ID" = field(SystemCreatedBy)));
             Editable = false;
         }
-        field(14; "Transaction DateTime"; DateTime)
+        field(14; "Transaction Date"; Date)
         {
-            Caption = 'Transaction DateTime';
+            //Description = 'replaced Transaction DateTime with Date for QA Checklist Compliance';
+            Caption = 'Transaction Date';
         }
         field(15; "Document No."; Code[20])
         {
@@ -135,7 +136,7 @@ table 14304107 "AQD Item Restriction Entry"
         key(Key2; "Lot No.")
         {
         }
-        key(Key3; "Transaction DateTime")
+        key(Key3; "Transaction Date")
         {
         }
     }

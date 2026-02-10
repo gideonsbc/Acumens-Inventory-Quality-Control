@@ -13,7 +13,7 @@ report 14304105 "AQD Update Lot Restriction"
             var
                 ItemRestEntry: Record "AQD Item Restriction Entry";
             begin
-                ItemRestEntry.SetCurrentKey("Transaction DateTime");
+                ItemRestEntry.SetCurrentKey("Transaction Date");
                 ItemRestEntry.SetRange("Item No.", "Item No.");
                 ItemRestEntry.SetRange("Variant Code", "Variant Code");
                 ItemRestEntry.SetRange("Lot No.", "Lot No.");

@@ -105,6 +105,18 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 ToolTip = 'Executes the Item Journal Templates action.';
                 Caption = 'Item Journal Templates';
             }
+            action(ResetNoSeriesAction)
+            {
+                Caption = 'Reset Number Series';
+                Image = ResetStatus;
+                ToolTip = 'Resets All AIQC Warehouse Number series on the setup';
+                ApplicationArea = All;
+
+                trigger OnAction()
+                begin
+                    ResetNoSeries();
+                end;
+            }
         }
         area(Navigation)
         {
@@ -147,6 +159,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 actionref("AQD WarehouseRestrictionStatus_Promoted"; "AQD WarehouseRestrictionStatus") { }
                 actionref("AQD Warehouse Restrictions_Promoted"; "AQD Warehouse Restrictions") { }
                 actionref("Location Setup_Promoted"; "Location Setup") { }
+                actionref("ResetNoSeriesAction_Promoted"; ResetNoSeriesAction) { }
             }
             group(Category_Report)
             {
@@ -211,6 +224,8 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             CreateWarehouseJournalSetup();
 
             InitializeWarehouseRestriction();
+
+            GenerateNoSeries();
 
             AssignWarehouseSetup();
         end;
@@ -382,6 +397,216 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         end;
     end;
 
+    local procedure GenerateNoSeries()
+    var
+        NoSeries: Record "No. Series";
+        NoSeriesLine: Record "No. Series Line";
+    begin
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-RCPT') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-RCPT';
+            NoSeries.Description := 'AIQC Warehouse Receipt Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-RCPT';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-RE00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-RCPT+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-RCPT+';
+            NoSeries.Description := 'AIQC Posted Warehouse Receipt Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-RCPT+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-PR00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-SHIP') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-SHIP';
+            NoSeries.Description := 'AIQC Warehouse Shipment Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-SHIP';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-SH00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-SHIP+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-SHIP+';
+            NoSeries.Description := 'AIQC Posted Warehouse Shipment Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-SHIP+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-PS00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PUT-') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PUT-';
+            NoSeries.Description := 'AIQC Warehouse Internal Put-away Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PUT-';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-IPU0001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PUT-+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PUT-+';
+            NoSeries.Description := 'AIQC Registered Warehouse Put-away Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PUT-+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-RPU0001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PICK') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PICK';
+            NoSeries.Description := 'AIQC Warehouse Internal Pick Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PICK';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-IP00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PICK+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PICK+';
+            NoSeries.Description := 'AIQC Registered Warehouse Pick Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PICK+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-RP00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PUT') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PUT';
+            NoSeries.Description := 'AIQC Warehouse Put-away Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PUT';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-PU00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-MOV') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-MOV';
+            NoSeries.Description := 'AIQC Warehouse Movement Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-MOV';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-WM00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-PICK') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-PICK';
+            NoSeries.Description := 'AIQC Warehouse Pick Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-PICK';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-PI00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMS-MOVE+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMS-MOVE+';
+            NoSeries.Description := 'AIQC Registered Whse. Movement Nos';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMS-MOVE+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQC-WM00001';
+            if NoSeriesLine.Insert() then;
+        end;
+    end;
+
     local procedure AssignWarehouseSetup()
     var
         WarehouseSetup: Record "Warehouse Setup";
@@ -403,6 +628,42 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         WarehouseSetup.Validate("AQD Inv. Counts Restr. Code", 'INVCOUNT');
         WarehouseSetup.Validate("AQD Expired Lot Restr. Status", 'EXPIRED');
         WarehouseSetup.Validate("AQD Expired Lot Restr. Code", 'EXPLOT');
+
+        if WarehouseSetup."Whse. Receipt Nos." = '' then
+            WarehouseSetup."Whse. Receipt Nos." := 'AIQC-WMS-RCPT';
+
+        if WarehouseSetup."Posted Whse. Receipt Nos." = '' then
+            WarehouseSetup."Posted Whse. Receipt Nos." := 'AIQC-WMS-RCPT+';
+
+        if WarehouseSetup."Whse. Ship Nos." = '' then
+            WarehouseSetup."Whse. Ship Nos." := 'AIQC-WMS-SHIP';
+
+        if WarehouseSetup."Posted Whse. Shipment Nos." = '' then
+            WarehouseSetup."Posted Whse. Shipment Nos." := 'AIQC-WMS-SHIP+';
+
+        if WarehouseSetup."Whse. Internal Put-away Nos." = '' then
+            WarehouseSetup."Whse. Internal Put-away Nos." := 'AIQC-WMS-PUT-';
+
+        if WarehouseSetup."Registered Whse. Put-away Nos." = '' then
+            WarehouseSetup."Registered Whse. Put-away Nos." := 'AIQC-WMS-PUT-+';
+
+        if WarehouseSetup."Whse. Internal Pick Nos." = '' then
+            WarehouseSetup."Whse. Internal Pick Nos." := 'AIQC-WMS-PICK';
+
+        if WarehouseSetup."Registered Whse. Pick Nos." = '' then
+            WarehouseSetup."Registered Whse. Pick Nos." := 'AIQC-WMS-PICK+';
+
+        if WarehouseSetup."Whse. Put-away Nos." = '' then
+            WarehouseSetup."Whse. Put-away Nos." := 'AIQC-WMS-PUT';
+
+        if WarehouseSetup."Whse. Movement Nos." = '' then
+            WarehouseSetup."Whse. Movement Nos." := 'AIQC-WMS-MOV';
+
+        if WarehouseSetup."Whse. Pick Nos." = '' then
+            WarehouseSetup."Whse. Pick Nos." := 'AIQC-WMS-PICK';
+
+        if WarehouseSetup."Whse. Movement Nos." = '' then
+            WarehouseSetup."Whse. Movement Nos." := 'AIQC-WMS-MOVE+';
 
         WarehouseSetup.Modify(true);
     end;
@@ -485,6 +746,10 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         Clear(WarehouseSetupRec."AQD Expired Lot Restr. Status");
         Clear(WarehouseSetupRec."AQD Expired Lot Restr. Code");
 
+        // Clear Warehouse Setup assigned Number series
+        Clear(WarehouseSetupRec."Whse. Internal Put-away Nos.");
+        Clear(WarehouseSetupRec."Whse. Internal Pick Nos.");
+
         WarehouseSetupRec.Modify(true);
     end;
 
@@ -510,6 +775,241 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             exit(true);
 
         exit(false);
+    end;
+
+    local procedure ResetNoSeries()
+    var
+        NoSeries: Record "No. Series";
+        NoSeriesLine: Record "No. Series Line";
+        WarehouseSetup: Record "Warehouse Setup";
+    begin
+        if not Confirm('This will reset all Acumens Inventory Quality Control number series setups. Are you sure you want to Proceed?', false) then
+            exit;
+
+        if not WarehouseSetup.Get() then
+            exit;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSRCPT') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSRCPT';
+            NoSeries.Description := 'AIQC Warehouse Receipt';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSRCPT';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCRE00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSRCPT+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSRCPT+';
+            NoSeries.Description := 'AIQC Posted Warehouse Receipt';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSRCPT+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCPR00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSSHIP') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSSHIP';
+            NoSeries.Description := 'AIQC Warehouse Shipment';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSSHIP';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCSH00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSSHIP+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSSHIP+';
+            NoSeries.Description := 'AIQC Posted Warehouse Shipment';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSSHIP+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCPS00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSPUT-') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSPUT-';
+            NoSeries.Description := 'AIQC Warehouse Internal Put-away';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQCWMS-PUT-';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCIPU0001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSPUT-+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSPUT-+';
+            NoSeries.Description := 'AIQC Registered Warehouse Put-away';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSPUT-+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCRPU0001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMIPICK') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMIPICK';
+            NoSeries.Description := 'AIQC Warehouse Internal Pick';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMIPICK';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCIP00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSPICK+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSPICK+';
+            NoSeries.Description := 'AIQC Registered Warehouse Pick';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSPICK+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCRP00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSPUT') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSPUT';
+            NoSeries.Description := 'AIQC Warehouse Put-away';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSPUT';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCPU00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSMOV') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSMOV';
+            NoSeries.Description := 'AIQC Warehouse Movement';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSMOV';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCWM00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSPICK') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSPICK';
+            NoSeries.Description := 'AIQC Warehouse Pick';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSPICK';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCPI00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        NoSeries.Reset();
+        if not NoSeries.Get('AIQC-WMSMOVE+') then begin
+            NoSeries.Init();
+            NoSeries.Code := 'AIQC-WMSMOVE+';
+            NoSeries.Description := 'AIQC Registered Warehouse Movement';
+            NoSeries."Default Nos." := true;
+            NoSeries."Manual Nos." := true;
+            NoSeries.Insert();
+
+            NoSeriesLine.Reset();
+            NoSeriesLine.Init();
+            NoSeriesLine."Series Code" := 'AIQC-WMSMOVE+';
+            NoSeriesLine."Line No." := 10000;
+            NoSeriesLine."Starting No." := 'AIQCWM00001';
+            if NoSeriesLine.Insert() then;
+        end;
+
+        WarehouseSetup."Whse. Receipt Nos." := 'AIQC-WMSRCPT';
+        WarehouseSetup."Posted Whse. Receipt Nos." := 'AIQC-WMSRCPT+';
+        WarehouseSetup."Whse. Ship Nos." := 'AIQC-WMSSHIP';
+        WarehouseSetup."Posted Whse. Shipment Nos." := 'AIQC-WMSSHIP+';
+        WarehouseSetup."Whse. Internal Put-away Nos." := 'AIQC-WMSPUT-';
+        WarehouseSetup."Registered Whse. Put-away Nos." := 'AIQC-WMSPUT-+';
+        WarehouseSetup."Whse. Internal Pick Nos." := 'AIQC-WMIPICK';
+        WarehouseSetup."Registered Whse. Pick Nos." := 'AIQC-WMSPICK+';
+        WarehouseSetup."Whse. Put-away Nos." := 'AIQC-WMSPUT';
+        WarehouseSetup."Whse. Movement Nos." := 'AIQC-WMSMOV';
+        WarehouseSetup."Whse. Pick Nos." := 'AIQC-WMSPICK';
+        WarehouseSetup."Whse. Movement Nos." := 'AIQC-WMSMOVE+';
+
+        if Rec.Modify() then;
+        CurrPage.Update();
+
+        Message('Number series setups have been reset.')
     end;
 }
 

@@ -48,7 +48,12 @@ pageextension 14304108 "AQD QALotNoInformationCard" extends "Lot No. Information
                 var
                     LotNoInfo: Record "Lot No. Information";
                     RestrictLot: Page "AQD Restrict Lot";
+                    AcumensInventoryQClbl: Label 'Acumens Inventory Quality Control is not enabled';
+                    QASingleInstance: Codeunit "AQD QA Single Instance";
                 begin
+                    if not QASingleInstance.IsInventoryQualityControlEnabled() then
+                        Error(AcumensInventoryQClbl);
+
                     LotNoInfo := Rec;
                     LotNoInfo.SetRecFilter();
                     RestrictLot.SetTableView(LotNoInfo);
