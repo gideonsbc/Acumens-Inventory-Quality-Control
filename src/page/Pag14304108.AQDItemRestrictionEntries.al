@@ -93,11 +93,11 @@ page 14304108 "AQD Item Restriction Entries"
                     Caption = 'Created By';
                     ToolTip = 'Specifies the value of the Created By field.';
                 }
-                field("Transaction DateTime"; Rec."Transaction DateTime")
+                field("Transaction Date"; Rec."Transaction Date")
                 {
                     ApplicationArea = All;
-                    Caption = 'Transaction DateTime';
-                    ToolTip = 'Specifies the value of the Transaction DateTime field.';
+                    Caption = 'Transaction Date';
+                    ToolTip = 'Specifies the value of the Transaction Date field.';
                 }
             }
         }

@@ -33,6 +33,11 @@ table 14304111 "AQD Acumens Inventory QC Setup"
             Editable = false;
             Caption = 'Setup Initialized By';
         }
+        field(6; "AQD Test Mode"; Boolean)
+        {
+            Caption = 'Test Mode';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

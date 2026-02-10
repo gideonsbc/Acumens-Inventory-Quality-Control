@@ -33,6 +33,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AQD Acumens Inventory QC Setup - Field AQD Setup Initialized By - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1838609307 - Field 2779596363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AQD Acumens Inventory QC Setup - Field AQD Test Mode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3743083771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Restriction Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -143,10 +148,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AQD Item Restriction Entry - Field Restriction Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3743083771 - Field 3160797871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Transaction DateTime</source>
+        <trans-unit id="Table 3743083771 - Field 775380468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table AQD Item Restriction Entry - Field Transaction DateTime - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AQD Item Restriction Entry - Field Transaction Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3743083771 - Field 381961415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unit Cost</source>
@@ -703,6 +708,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Location Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3723166835 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resets All AIQC Warehouse Number series on the setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action ResetNoSeriesAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Action 3723166835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Number Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action ResetNoSeriesAction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1838609307 - Action 311158110 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Restriction User Setup action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -913,15 +928,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Item Restriction Entries - Control Restriction Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2887384721 - Control 3160797871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Transaction DateTime field.</source>
+        <trans-unit id="Page 2887384721 - Control 775380468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transaction Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Item Restriction Entries - Control Transaction DateTime - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Item Restriction Entries - Control Transaction Date - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2887384721 - Control 3160797871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Transaction DateTime</source>
+        <trans-unit id="Page 2887384721 - Control 775380468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Item Restriction Entries - Control Transaction DateTime - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Item Restriction Entries - Control Transaction Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2887384721 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Unit Cost field.</source>
@@ -1913,6 +1928,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseItem Restrictions - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4127129037 - NamedType 571888308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Inventory Quality Control is not enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseItem Restrictions - NamedType AcumensInventoryQClbl</note>
+        </trans-unit>
         <trans-unit id="Page 4127129037 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GroupName</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2192,6 +2212,11 @@
           <source>Restrict Item</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QALotNoInformationCard - Action AQD Restrict Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2396902454 - Action 1962727887 - Method 1377591017 - NamedType 571888308" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2396902454">
+          <source>Acumens Inventory Quality Control is not enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QALotNoInformationCard - Action AQD Restrict Item - Method OnAction - NamedType AcumensInventoryQClbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2396902454 - Action 3177855180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4038454596">
           <source>Acumens Inventory Quality Control</source>

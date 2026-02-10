@@ -40,4 +40,13 @@ page 14304106 "AQD WarehouseItem Restrictions"
             }
         }
     }
+    trigger OnOpenPage()
+    begin
+        if not QASingleInstance.IsInventoryQualityControlEnabled() then
+            Error(AcumensInventoryQClbl);
+    end;
+
+    var
+        AcumensInventoryQClbl: Label 'Acumens Inventory Quality Control is not enabled';
+        QASingleInstance: Codeunit "AQD QA Single Instance";
 }

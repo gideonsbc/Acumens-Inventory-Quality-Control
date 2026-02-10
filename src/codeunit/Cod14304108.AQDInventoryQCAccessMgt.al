@@ -14,7 +14,6 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     //                  Updated condition to include expiration Date = ControlDate and countDown
 
     var
-        AcumensInventoryQCSetup: Record "AQD Acumens Inventory QC Setup";
         ExpiryDateCountDownMsg: Label '%1 annual access license expires in %2 days.';
         LicenseExpiryErr: Label '%1 annual access license has expired.';
         Text001: Label 'You do not have license to access %1.';
