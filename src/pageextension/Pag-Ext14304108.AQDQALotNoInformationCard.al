@@ -62,7 +62,7 @@ pageextension 14304108 "AQD QALotNoInformationCard" extends "Lot No. Information
                 end;
             }
         }
-        addafter(Category_Process)
+        addafter(Category_Category20)
         {
             group("AQD AQDAcumens Inventory Quality Control Promoted")
             {

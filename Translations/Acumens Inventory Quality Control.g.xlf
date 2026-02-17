@@ -754,7 +754,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action About the App - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Action 1833103207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>About the App</source>
+          <source>About the Inventory Quality Control App</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action About the App - Property Caption</note>
         </trans-unit>
@@ -2103,10 +2103,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemCard - Action AQD Warehouse Item Restrictions - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2494067967 - Action 3177855180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+        <trans-unit id="PageExtension 2494067967 - Action 716295560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Acumens Inventory Quality Control</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemCard - Action AQD AQDAcumens Inventory Quality Control Promoted - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemCard - Action AQD Acumens Inventory Quality Control Promoted - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3631701694 - Control 536950185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1129455602">
           <source>Specifies the value of the Allow QA. Transaction field.</source>

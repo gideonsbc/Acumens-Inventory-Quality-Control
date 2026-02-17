@@ -126,7 +126,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 RunObject = page "AQD About Acumens Inventory QC";
                 ApplicationArea = All;
                 ToolTip = 'Executes the About Acumens Inventory Quality Control page.';
-                Caption = 'About the App';
+                Caption = 'About the Inventory Quality Control App';
             }
         }
         area(Reporting)
@@ -230,6 +230,8 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             AssignWarehouseSetup();
         end;
         Message(Text002);
+
+        OnAfterInitDefaultSetup();
     end;
 
     local procedure InitializeRestrictionUserSetup();
@@ -717,6 +719,8 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         // WarehouseJournalBatch.DeleteAll(true);
         //>>>SBC. 2026-02-06.
 
+        OnAfterDeleteAllSetups();
+
         Rec.DeleteAll();
         CurrPage.Close();
     end;
@@ -1010,6 +1014,16 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         CurrPage.Update();
 
         Message('Number series setups have been reset.')
+    end;
+
+    [IntegrationEvent(true, false)]
+    local procedure OnAfterInitDefaultSetup()
+    begin
+    end;
+
+    [IntegrationEvent(true, false)]
+    local procedure OnAfterDeleteAllSetups()
+    begin
     end;
 }
 
