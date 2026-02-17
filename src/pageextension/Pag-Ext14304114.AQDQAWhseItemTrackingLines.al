@@ -1,4 +1,4 @@
-pageextension 14304114 "AQD WhseItemTrackingLines" extends "Whse. Item Tracking Lines"
+pageextension 14304114 "AQD QAWhseItemTrackingLines" extends "Whse. Item Tracking Lines"
 {
     layout
     {

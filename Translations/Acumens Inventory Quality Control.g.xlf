@@ -2053,16 +2053,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report AQD Update Lot Restriction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3517576057 - Control 2286548219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
-          <source>Specifies the value of the QA. To Bin Code field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD AQDQAWhseRe. classJournal - Control AQD QA. To Bin Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3517576057 - Control 2286548219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
-          <source>QA. To Bin Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD AQDQAWhseRe. classJournal - Control AQD QA. To Bin Code - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3968293963 - Control 775103953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1971558487">
           <source>Specifies the value of the QA. Bin field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2418,6 +2408,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWarehouseSetup - Control AQD Split Lot Whse Template Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 943643790 - Control 3909045891 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Specifies the value of the Restricted field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWhseItemTrackingLines - Control AQD Restricted - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 943643790 - Control 3909045891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Restricted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWhseItemTrackingLines - Control AQD Restricted - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2112798898 - Control 536950185 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3134821744">
           <source>Specifies the value of the Allow QA. Transaction field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2438,6 +2438,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWhseJournalBatches - Control AQD Restrict Item - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3250123197 - Control 2286548219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
+          <source>Specifies the value of the QA. To Bin Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWhseRe. classJournal - Control AQD QA. To Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3250123197 - Control 2286548219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
+          <source>QA. To Bin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAWhseRe. classJournal - Control AQD QA. To Bin Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2488084235 - Control 869174016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 977764487">
           <source>Specifies the value of the QA. Zone field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2447,26 +2457,6 @@
           <source>QA. Zone</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAZones - Control AQD QA. Zone - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4025832646 - Control 3909045891 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
-          <source>Specifies the value of the Restricted field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD WhseItemTrackingLines - Control AQD Restricted - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 4025832646 - Control 3909045891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
-          <source>Restricted</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD WhseItemTrackingLines - Control AQD Restricted - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1560430239 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
-          <source>Restriction Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD AQDQATransferLine - Field AQD Restriction Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1560430239 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
-          <source>Restriction Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD AQDQATransferLine - Field AQD Restriction Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2884997515 - Field 775103953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 400793991">
           <source>QA. Bin</source>
@@ -2542,6 +2532,51 @@
           <source>Restriction Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QALotNoInformation - Field AQD Restriction Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2300722804 - Field 635019896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAReservationEntry - Field AQD Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2300722804 - Field 2028688493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
+          <source>Expiration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAReservationEntry - Field AQD ILE Expiration Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2300722804 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
+          <source>Restriction Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAReservationEntry - Field AQD Restriction Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2300722804 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
+          <source>Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAReservationEntry - Field AQD Restriction Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3964583130 - Field 635019896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QATrackingSpecification - Field AQD Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3964583130 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
+          <source>Restriction Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QATrackingSpecification - Field AQD Restriction Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3964583130 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
+          <source>Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QATrackingSpecification - Field AQD Restriction Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1278281187 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
+          <source>Restriction Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QATransferLine - Field AQD Restriction Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1278281187 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
+          <source>Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QATransferLine - Field AQD Restriction Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1304611063 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1903112923">
           <source>Restriction Code</source>
@@ -2648,50 +2683,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWarehouseSetup - Field AQD Split Lot Whse Temp. Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1401950275 - Field 3909045891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 945707429">
+          <source>Restricted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAWhseItemTrackingLine - Field AQD Restricted - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3883504990 - Field 869174016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2211191610">
           <source>QA. Zone</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAZone - Field AQD QA. Zone - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2568372812 - Field 635019896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
-          <source>Blocked</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD ReservationEntry - Field AQD Blocked - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2568372812 - Field 2028688493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
-          <source>Expiration Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD ReservationEntry - Field AQD ILE Expiration Date - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2568372812 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
-          <source>Restriction Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD ReservationEntry - Field AQD Restriction Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2568372812 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4086595800">
-          <source>Restriction Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD ReservationEntry - Field AQD Restriction Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2203405346 - Field 635019896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
-          <source>Blocked</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD TrackingSpecification - Field AQD Blocked - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2203405346 - Field 1271218951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
-          <source>Restriction Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD TrackingSpecification - Field AQD Restriction Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2203405346 - Field 667552728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1470081326">
-          <source>Restriction Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD TrackingSpecification - Field AQD Restriction Status - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 678137819 - Field 3909045891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 945707429">
-          <source>Restricted</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD WhseItemTrackingLine - Field AQD Restricted - Property Caption</note>
         </trans-unit>
       </group>
     </body>

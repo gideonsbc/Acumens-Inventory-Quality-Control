@@ -1,4 +1,4 @@
-tableextension 14304116 "AQD AQDQATransferLine" extends "Transfer Line"
+tableextension 14304116 "AQD QATransferLine" extends "Transfer Line"
 {
     fields
     {

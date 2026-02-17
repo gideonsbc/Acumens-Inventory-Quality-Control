@@ -1,4 +1,4 @@
-tableextension 14304115 "AQD WhseItemTrackingLine" extends "Whse. Item Tracking Line"
+tableextension 14304115 "AQD QAWhseItemTrackingLine" extends "Whse. Item Tracking Line"
 {
     fields
     {
