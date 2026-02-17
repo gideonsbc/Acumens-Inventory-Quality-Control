@@ -14,9 +14,9 @@ pageextension 14304107 "AQD QAItemCard" extends "Item Card"
                 ToolTip = 'Executes the Warehouse Item Restrictions action.';
             }
         }
-        addafter(Category_Category6)
+        addafter(Category_Category20)
         {
-            group("AQD AQDAcumens Inventory Quality Control Promoted")
+            group("AQD Acumens Inventory Quality Control Promoted")
             {
                 Caption = 'Acumens Inventory Quality Control';
                 actionref(AQDWarehouseItemRestrictions_Promoted; "AQD Warehouse Item Restrictions")
