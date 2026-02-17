@@ -1,4 +1,4 @@
-tableextension 14304118 "AQD TrackingSpecification" extends "Tracking Specification"
+tableextension 14304119 "AQD QAReservationEntry" extends "Reservation Entry"
 {
     fields
     {
@@ -22,6 +22,13 @@ tableextension 14304118 "AQD TrackingSpecification" extends "Tracking Specificat
             CalcFormula = lookup("AQD Item Restrictions"."Restriction Status" where("Item No." = field("Item No."), "Variant Code" = field("Variant Code"), "Lot No." = field("Lot No."), "Location Code" = field("Location Code"), Open = const(true)));
             Editable = false;
             Caption = 'Restriction Status';
+        }
+        field(14304107; "AQD ILE Expiration Date"; Date)
+        {
+            Caption = 'Expiration Date';
+            FieldClass = FlowField;
+            CalcFormula = Lookup("Item Ledger Entry"."Expiration Date" WHERE("Item No." = FIELD("Item No."), "Variant Code" = FIELD("Variant Code"), "Lot No." = FIELD("Lot No."), Positive = CONST(true), Open = CONST(true)));
+            Editable = false;
         }
     }
 }

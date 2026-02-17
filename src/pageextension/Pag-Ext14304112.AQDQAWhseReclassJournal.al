@@ -1,4 +1,4 @@
-pageextension 14304112 "AQD AQDQAWhseRe. classJournal" extends "Whse. Reclassification Journal"
+pageextension 14304112 "AQD QAWhseRe. classJournal" extends "Whse. Reclassification Journal"
 {
     layout
     {
