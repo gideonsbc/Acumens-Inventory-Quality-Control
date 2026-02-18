@@ -4,6 +4,7 @@ table 14304108 "AQD WarehouseRestrictionStatus"
     LookupPageId = "AQD WarehouseRestrictionStatus";
     DrillDownPageId = "AQD WarehouseRestrictionStatus";
     DataClassification = CustomerContent;
+    DataCaptionFields = Code, Description;
 
     fields
     {
