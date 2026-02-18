@@ -19,14 +19,102 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 field(Enabled; Rec."AQD Enabled")
                 {
                     ApplicationArea = All;
-                    Caption = 'Enabled';
+                    Caption = 'Enabled App';
                     ToolTip = 'Specifies the value of the Enabled field.';
                 }
-                field("Log To History"; Rec."AQD Log To History")
+            }
+            group("AQD QA Warehouse Setups")
+            {
+                Caption = 'Warehouse Setups';
+                field("AQD Split Lot Template Name"; Rec."AQD Split Lot Template Name")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Log To History field.';
-                    Caption = 'Log To History';
+                    Caption = 'Split Lot Template Name';
+                    ToolTip = 'Specifies the value of the Split Lot Template Name field.';
+                }
+                field("AQD Split Lot Batch Name"; Rec."AQD Split Lot Batch Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Split Lot Batch Name';
+                    ToolTip = 'Specifies the value of the Split Lot Batch Name field.';
+                }
+                field("AQD Split Lot Whse Template Name"; Rec."AQD Split Lot Whse Temp. Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Split Lot Warehouse Template Name';
+                    ToolTip = 'Specifies the value of the Split Lot Warehouse Template Name field.';
+                }
+                field("AQD Split Lot Warehouse Batch Name"; Rec."AQD Split Lot Whse Batch Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Split Lot Warehouse Batch Name';
+                    ToolTip = 'Specifies the value of the Split Lot Warehouse Batch Name field.';
+                }
+                field("AQD QA. Template Name"; Rec."AQD QA. Template Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'QA. Template Name';
+                    ToolTip = 'Specifies the value of the QA. Template Name field.';
+                }
+                field("AQD QA. Batch No."; Rec."AQD QA. Batch Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'QA. Batch Name';
+                    ToolTip = 'Specifies the value of the QA. Batch Name field.';
+                }
+                field("AQD QA. Warehouse Template Name"; Rec."AQD QA. Whse Template Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'QA. Warehouse Template Name';
+                    ToolTip = 'Specifies the value of the QA. Warehouse Template Name field.';
+                }
+                field("AQD QA. Warehouse Batch No."; Rec."AQD QA. Warehouse Batch Name")
+                {
+                    ApplicationArea = All;
+                    Caption = 'QA. Warehouse Batch Name';
+                    ToolTip = 'Specifies the value of the QA. Warehouse Batch Name field.';
+                }
+                field("AQD Allow DPP. Transfer"; Rec."AQD Allow DPP. Transfer")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Allow DPP. Transfer';
+                    ToolTip = 'Specifies the value of the Allow DPP. Transfer field.';
+                }
+                field("AQD Allow Partial Release"; Rec."AQD Allow Partial Release")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Allow Partial Release';
+                    ToolTip = 'Specifies the value of the Allow Partial Release field.';
+                }
+                field("AQD Inv. Counts Restriction Status"; Rec."AQD Inv. Counts Restr. Status")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Inventory Counts Restriction Status';
+                    ToolTip = 'Specifies the value of the Inventory Counts Restriction Status field.';
+                }
+                field("AQD Inv. Counts Restriction Code"; Rec."AQD Inv. Counts Restr. Code")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Inventory Counts Restriction Code';
+                    ToolTip = 'Specifies the value of the Inventory Counts Restriction Code field.';
+                }
+                field("AQD Create Rest. for Expired Lot"; Rec."AQD CreateRest. forExpired Lot")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Create Restrictions for Expired Lot.';
+                    ToolTip = 'Specifies the value of the Create Restrictions for Expired Lot. field.';
+                }
+                field("AQD Expired Lot Restriction Status"; Rec."AQD Expired Lot Restr. Status")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Expired Lot Restriction Status';
+                    ToolTip = 'Specifies the value of the Expired Lot Restriction Status field.';
+                }
+                field("AQD Expired Lot Restriction Code"; Rec."AQD Expired Lot Restr. Code")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Expired Lot Restriction Code';
+                    ToolTip = 'Specifies the value of the Expired Lot Restriction Code field.';
                 }
             }
         }
@@ -126,7 +214,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 RunObject = page "AQD About Acumens Inventory QC";
                 ApplicationArea = All;
                 ToolTip = 'Executes the About Acumens Inventory Quality Control page.';
-                Caption = 'About the Inventory Quality Control App';
+                Caption = 'About the App';
             }
         }
         area(Reporting)
@@ -150,7 +238,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         }
         area(Promoted)
         {
-            group(Category_Process)
+            group(Category_Category20)
             {
                 Caption = 'Home', Comment = 'Generated from the PromotedActionCategories property index 1.';
                 actionref("Delete Acumens Inventory Quality Control Setups_Promoted"; "Delete Acumens Inventory Quality Control Setups") { }
@@ -200,11 +288,6 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         AcumensInventoryQCSetup: Record "AQD Acumens Inventory QC Setup";
         AERAccessMgt: Codeunit "AQD Inventory QC Access Mgt.";
         RestrictionUserSetup: Record "AQD Restriction User Setup";
-        WarehouseSetup: Record "Warehouse Setup";
-        ItemJournalTemplate: Record "Item Journal Template";
-        ItemJournalBatch: Record "Item Journal Batch";
-        WareHouseJournalTemplate: Record "Warehouse Journal Template";
-        WareHouseJournalBatch: Record "Warehouse Journal Batch";
         Location: Record Location;
         AQDWarehouseRestrictionStatus: Record "AQD WarehouseRestrictionStatus";
         AQDWarehouseRestriction: Record "AQD Warehouse Restriction";
@@ -212,10 +295,6 @@ page 14304114 "AQD Acumens Inventory QC Setup"
     local procedure InitDefaultSetup();
     begin
         if Confirm(Text001) then begin
-            Rec."AQD Enabled" := true;
-            Rec."AQD Log To History" := true;
-            Rec."AQD Setup Initialized By" := UserId;
-            Rec.Modify();
 
             InitializeRestrictionUserSetup();
 
@@ -228,10 +307,30 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             GenerateNoSeries();
 
             AssignWarehouseSetup();
+
+            Rec."AQD Enabled" := true;
+            Rec."AQD Log To History" := true;
+            Rec."AQD Setup Initialized By" := UserId;
+            Rec."AQD Split Lot Template Name" := 'SPLITLOT';
+            Rec."AQD Split Lot Batch Name" := 'SPLBATCH';
+            Rec."AQD Split Lot Whse Temp. Name" := 'SPLWHSEJNR';
+            Rec."AQD Split Lot Whse Batch Name" := 'SPLWHSEBAT';
+            Rec."AQD QA. Template Name" := 'QAJOURNAL';
+            Rec."AQD QA. Batch Name" := 'QABATCH';
+            Rec."AQD QA. Whse Template Name" := 'QAWHSEJNR';
+            Rec."AQD QA. Warehouse Batch Name" := 'QAWHSEBATC';
+            Rec."AQD Allow DPP. Transfer" := false;
+            Rec."AQD Allow Partial Release" := false;
+            Rec."AQD Inv. Counts Restr. Status" := 'COUNTING';
+            Rec."AQD Inv. Counts Restr. Code" := 'INVCOUNT';
+            Rec."AQD CreateRest. forExpired Lot" := false;
+            Rec."AQD Expired Lot Restr. Status" := 'EXPIRED';
+            Rec."AQD Expired Lot Restr. Code" := 'EXPLOT';
+            Rec.Modify();
         end;
         Message(Text002);
 
-        OnAfterInitDefaultSetup();
+        //OnAfterInitDefaultSetup();
     end;
 
     local procedure InitializeRestrictionUserSetup();
@@ -719,7 +818,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         // WarehouseJournalBatch.DeleteAll(true);
         //>>>SBC. 2026-02-06.
 
-        OnAfterDeleteAllSetups();
+        //OnAfterDeleteAllSetups();
 
         Rec.DeleteAll();
         CurrPage.Close();
@@ -1010,8 +1109,9 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         WarehouseSetup."Whse. Pick Nos." := 'AIQC-WMSPICK';
         WarehouseSetup."Whse. Movement Nos." := 'AIQC-WMSMOVE+';
 
-        if Rec.Modify() then;
-        CurrPage.Update();
+        if WarehouseSetup.Modify(true) then
+            //if Rec.Modify(true) then;
+            CurrPage.Update();
 
         Message('Number series setups have been reset.')
     end;
