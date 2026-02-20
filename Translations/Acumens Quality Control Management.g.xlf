@@ -644,7 +644,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4212852053 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AIQCM Version: %1</source>
+          <source>AQCM Version: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text001</note>
         </trans-unit>
@@ -654,7 +654,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text002</note>
         </trans-unit>
         <trans-unit id="Page 4212852053 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AIQCM Build Date: %1</source>
+          <source>AQCM Build Date: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text003</note>
         </trans-unit>
@@ -664,12 +664,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text004</note>
         </trans-unit>
         <trans-unit id="Page 4212852053 - NamedType 2037309875" size-unit="char" translate="yes" xml:space="preserve">
-          <source>  * Inventory Quality Control Management</source>
+          <source>  * Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text00501</note>
         </trans-unit>
         <trans-unit id="Page 4212852053 - NamedType 3950399726" size-unit="char" translate="yes" xml:space="preserve">
-          <source>  * Lot Restriction Inventory Quality Control</source>
+          <source>  * Lot Restriction Quality Control</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text00502</note>
         </trans-unit>
@@ -688,7 +688,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text011</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - Control 4008100606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 4212852053 - Control 626795653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acumens Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - Control Acumens Quality Control Management - Property Caption</note>
@@ -978,12 +978,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action About the App - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1838609307 - Action 1875833337 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1838609307 - Action 3858308546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Delete Acumens Quality Control Management Default Setups action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Delete Acumens Quality Control Management Setups - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1838609307 - Action 1875833337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1838609307 - Action 3858308546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete Acumens Quality Control Management Setups</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action Delete Acumens Quality Control Management Setups - Property Caption</note>
@@ -2313,7 +2313,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemCard - Action AQD Warehouse Item Restrictions - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2494067967 - Action 716295560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+        <trans-unit id="PageExtension 2494067967 - Action 3680021079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Acumens Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemCard - Action AQD Acumens Quality Control Management Promoted - Property Caption</note>
@@ -2378,7 +2378,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QAItemTrackingLines - Control AQD Restriction Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2667589431 - Control 3940931682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+        <trans-unit id="PageExtension 2667589431 - Control 1430632857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Acumens Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QALocationCard - Control AQD Acumens Quality Control Management - Property Caption</note>
@@ -2428,7 +2428,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QALotNoInformationCard - Action AQD Restrict Item - Method OnAction - NamedType AcumensInventoryQClbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2396902454 - Action 3177855180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4038454596">
+        <trans-unit id="PageExtension 2396902454 - Action 3552251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4038454596">
           <source>Acumens Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AQD QALotNoInformationCard - Action AQD AQDAcumens Quality Control Management Promoted - Property Caption</note>

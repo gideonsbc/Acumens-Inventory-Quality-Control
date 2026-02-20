@@ -1,7 +1,7 @@
 table 14304111 "AQD Acumens Inventory QC Setup"
 {
     DataClassification = CustomerContent;
-    Caption = 'Acumens Inventory Quality Control Setup';
+    Caption = 'Acumens Quality Control Management Setup';
 
     fields
     {

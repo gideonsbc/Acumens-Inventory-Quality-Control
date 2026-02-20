@@ -1,6 +1,6 @@
 page 14304113 "AQD About Acumens Inventory QC"
 {
-    Caption = 'About Acumens Inventory Quality Control';
+    Caption = 'About Acumens Quality Control Management';
     Editable = false;
     LinksAllowed = false;
     ShowFilter = false;
@@ -11,9 +11,9 @@ page 14304113 "AQD About Acumens Inventory QC"
     {
         area(Content)
         {
-            group("Acumens Inventory Quality Control")
+            group("Acumens Quality Control Management")
             {
-                Caption = 'Acumens Inventory Quality Control';
+                Caption = 'Acumens Quality Control Management';
                 group(Control605000013)
                 {
                     ShowCaption = false;
@@ -133,15 +133,15 @@ page 14304113 "AQD About Acumens Inventory QC"
     var
         Appl: Codeunit "Application System Constants";
         AEPAppl: Codeunit "AQD Arc Appl System Constants";
-        Text001: Label 'AIQCM Version: %1';
+        Text001: Label 'AQCM Version: %1';
         Text002: Label 'CU Version: %1';
-        Text003: Label 'AIQCM Build Date: %1';
-        Text004: Label 'Acumens Inventory Quality Control includes following granules:';
+        Text003: Label 'AQCM Build Date: %1';
+        Text004: Label 'Acumens Quality Control Management includes following granules:';
         Text009: Label '© 2019-2026 SBC Dynamics ERP';
         Text010: Label 'Version: %1';
         Text011: Label 'Build: %1';
-        Text00501: Label '  * Inventory Quality Control Management';
-        Text00502: Label '  * Lot Restriction Inventory Quality Control';
+        Text00501: Label '  * Quality Control Management';
+        Text00502: Label '  * Lot Restriction Quality Control';
 
     local procedure GetAEPApplicationVersion(): Text
     begin

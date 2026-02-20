@@ -84,7 +84,7 @@ codeunit 14304106 "AQD QA Single Instance"
     begin
         AcumensInventoryQCSetup.Reset();
 
-        AQDInventoryQCAccessMgt.AccessManager('AIQC01', true, false);
+        AQDInventoryQCAccessMgt.AccessManager('AQCM01', true, false);
 
         if not AcumensInventoryQCSetup.Get() then
             exit(false)
