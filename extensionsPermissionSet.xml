@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PermissionSets>
-  <PermissionSet RoleID="ACUMENS INVENTORY QUALITY CONTROL" RoleName="Acumens Inventory Quality Control">
+  <PermissionSet RoleID="Acumens Quality Control Management" RoleName="Acumens Quality Control Management">
     <Permission>
       <ObjectID>14304104</ObjectID>
       <ObjectType>0</ObjectType>

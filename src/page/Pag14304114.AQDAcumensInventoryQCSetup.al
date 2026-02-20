@@ -7,7 +7,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
     UsageCategory = Administration;
     PageType = Card;
     SourceTable = "AQD Acumens Inventory QC Setup";
-    Caption = 'Acumens Inventory Quality Control Setup';
+    Caption = 'Acumens Quality Control Management Setup';
 
     layout
     {
@@ -123,12 +123,12 @@ page 14304114 "AQD Acumens Inventory QC Setup"
     {
         area(Processing)
         {
-            action("Delete Acumens Inventory Quality Control Setups")
+            action("Delete Acumens Quality Control Management Setups")
             {
                 Image = CancelAllLines;
                 ApplicationArea = All;
-                ToolTip = 'Executes the Delete Acumens Inventory Quality Control Default Setups action.';
-                Caption = 'Delete Acumens Inventory Quality Control Setups';
+                ToolTip = 'Executes the Delete Acumens Quality Control Management Default Setups action.';
+                Caption = 'Delete Acumens Quality Control Management Setups';
                 trigger OnAction();
                 begin
                     DeleteAllSetups();
@@ -213,7 +213,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
                 Image = AboutNav;
                 RunObject = page "AQD About Acumens Inventory QC";
                 ApplicationArea = All;
-                ToolTip = 'Executes the About Acumens Inventory Quality Control page.';
+                ToolTip = 'Executes the About Acumens Quality Control Management page.';
                 Caption = 'About the App';
             }
         }
@@ -241,7 +241,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
             group(Category_Category20)
             {
                 Caption = 'Home', Comment = 'Generated from the PromotedActionCategories property index 1.';
-                actionref("Delete Acumens Inventory Quality Control Setups_Promoted"; "Delete Acumens Inventory Quality Control Setups") { }
+                actionref("Delete Acumens Quality Control Management Setups_Promoted"; "Delete Acumens Quality Control Management Setups") { }
                 actionref("AQD Restriction User Setup_Promoted"; "Restriction User Setup") { }
                 actionref("Warehouse Setup_Promoted"; "Warehouse Setup") { }
                 actionref("AQD WarehouseRestrictionStatus_Promoted"; "AQD WarehouseRestrictionStatus") { }
@@ -271,7 +271,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
 
     trigger OnOpenPage();
     begin
-        AERAccessMgt.AccessManager('AIQC01', true, false);
+        AERAccessMgt.AccessManager('AQCM01', true, false);
         Rec.Reset();
         if not Rec.Get() then begin
             Rec.Init();
@@ -282,9 +282,9 @@ page 14304114 "AQD Acumens Inventory QC Setup"
     end;
 
     var
-        Text001: Label 'Do you want to automatically Initialize default Acumens Inventory Quality Control Setups?';
+        Text001: Label 'Do you want to automatically Initialize default Acumens Quality Control Management Setups?';
         Text002: Label 'Default Setups Initialized Successfully!';
-        Text003: Label 'Deleting Setup Card will delete all Acumens Inventory Quality Control specific Setups. Proceed?';
+        Text003: Label 'Deleting Setup Card will delete all Acumens Quality Control Management specific Setups. Proceed?';
         AcumensInventoryQCSetup: Record "AQD Acumens Inventory QC Setup";
         AERAccessMgt: Codeunit "AQD Inventory QC Access Mgt.";
         RestrictionUserSetup: Record "AQD Restriction User Setup";
@@ -886,7 +886,7 @@ page 14304114 "AQD Acumens Inventory QC Setup"
         NoSeriesLine: Record "No. Series Line";
         WarehouseSetup: Record "Warehouse Setup";
     begin
-        if not Confirm('This will reset all Acumens Inventory Quality Control number series setups. Are you sure you want to Proceed?', false) then
+        if not Confirm('This will reset all Acumens Quality Control Management number series setups. Are you sure you want to Proceed?', false) then
             exit;
 
         if not WarehouseSetup.Get() then

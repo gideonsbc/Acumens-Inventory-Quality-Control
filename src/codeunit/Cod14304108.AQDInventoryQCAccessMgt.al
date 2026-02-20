@@ -8,9 +8,9 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     // SBCNP 2022-01-08 Authorize.Net
     //                   Modified functions: AccessManager,
     //                   New function: CheckClientAllowedGranules,GetCalledFromGranule
-    // SBCNP 2023-10-22 Acumens Inventory Quality Control
+    // SBCNP 2023-10-22 Acumens Quality Control Management
     //                  Rewrite codeunit using functions from Acumens Licensing and Registration App
-    // SBCNP 2023-11-11 Acumens Inventory Quality Control
+    // SBCNP 2023-11-11 Acumens Quality Control Management
     //                  Updated condition to include expiration Date = ControlDate and countDown
 
     var
@@ -25,8 +25,8 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     end;
 
     /* var
-        Text001: Label 'You do not have license to access Acumens Inventory Quality Control.';
-        Text002: Label 'You do not have license to access Acumens Inventory Quality Control: %1.'; */
+        Text001: Label 'You do not have license to access Acumens Quality Control Management.';
+        Text002: Label 'You do not have license to access Acumens Quality Control Management: %1.'; */
 
 
     /// <summary>
@@ -79,8 +79,8 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     local procedure GetGranuleName(GranuleCode: Code[20]): Text;
     begin
         case GranuleCode of
-            'AIQC01':
-                exit('Acumens Inventory Quality Control');
+            'AQCM01':
+                exit('Acumens Quality Control Management');
         // 'AEP03':
         //     exit('Batch Payment Processing');
         // 'AEP04':
@@ -186,7 +186,7 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
         ProxyContext: Code[20];
         CurrAppExecutionContext: ExecutionContext;
     begin
-        ProxyContext := 'AIQC01';
+        ProxyContext := 'AQCM01';
         CurrAppExecutionContext := GetCurrentModuleExecutionContext();
         if CurrAppExecutionContext = CurrAppExecutionContext::Normal then
             AccessManager(ProxyContext, true, true);
@@ -195,7 +195,7 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     local procedure GetCalledFromGranule(ProxyContext: Record "AQD Acumens Inventory QC Setup" temporary; VAR CalledFromGranule: Code[20]);
     begin
         if ProxyContext."AQD Enabled" then
-            CalledFromGranule := 'AIQC01';
+            CalledFromGranule := 'AQCM01';
     end;
 
     local procedure AccessManager(ProxyContext: Code[20]; ShowMessage: Boolean): Boolean

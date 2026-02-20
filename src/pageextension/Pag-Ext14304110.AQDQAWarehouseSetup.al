@@ -6,7 +6,7 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
         {
             group("AQD QA. Managment")
             {
-                Caption = 'Acumens Inventory Quality Control';
+                Caption = 'Acumens Quality Control Management';
                 field("AQD Split Lot Template Name"; Rec."AQD Split Lot Template Name")
                 {
                     ApplicationArea = All;

@@ -48,7 +48,7 @@ pageextension 14304108 "AQD QALotNoInformationCard" extends "Lot No. Information
                 var
                     LotNoInfo: Record "Lot No. Information";
                     RestrictLot: Page "AQD Restrict Lot";
-                    AcumensInventoryQClbl: Label 'Acumens Inventory Quality Control is not enabled';
+                    AcumensInventoryQClbl: Label 'Acumens Quality Control Management is not enabled';
                     QASingleInstance: Codeunit "AQD QA Single Instance";
                 begin
                     if not QASingleInstance.IsInventoryQualityControlEnabled() then
@@ -64,9 +64,9 @@ pageextension 14304108 "AQD QALotNoInformationCard" extends "Lot No. Information
         }
         addafter(Category_Category20)
         {
-            group("AQD AQDAcumens Inventory Quality Control Promoted")
+            group("AQD AQDAcumens Quality Control Management Promoted")
             {
-                Caption = 'Acumens Inventory Quality Control';
+                Caption = 'Acumens Quality Control Management';
                 actionref(AQDRestrictItem_Promoted; "AQD Restrict Item")
                 {
                 }
