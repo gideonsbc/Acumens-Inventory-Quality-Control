@@ -1028,6 +1028,746 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Action AQD Update Lot Restriction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1482307757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Management Role Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 2693256201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approvals Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control ApprovalsActivities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 378676913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QualityControlMgActivities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control AQD QualityControlMgActivities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 321772404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control Control1901138408 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 3251749308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Headline RC Whse. Worker WMS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control Control7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 1392835601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control Emails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 3666961317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Tasks Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control Job Queue Tasks Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Control 669017456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Tasks Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Control User Tasks Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4247615141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Item - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4247615141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4164394277 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase goods or services from a vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Purchase Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4164394277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2929154246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a routing defining the operations that are required to produce an end item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Routing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2929154246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Routing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Routing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2069703735 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record the receipt of items according to an advanced warehouse configuration. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Whse. Receipt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2069703735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Whse. Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action &amp;Whse. Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4057595947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new firm planned production order to supply a produced item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Firm Planned Production Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4057595947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Firm Planned Production Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Firm Planned Production Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 401856855 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan to count inventory by calculating existing quantities and generating the recording documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Phys. Inv. Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 401856855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phys. Inv. Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Phys. Inv. Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2634019959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new bill of material for a produced item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Production &amp;BOM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2634019959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production &amp;BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Production &amp;BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2568579605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new planned production order to supply a produced item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Production &amp;Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2568579605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Production &amp;Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Production &amp;Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3698582500 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new released production order to supply a produced item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Released Production Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3698582500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released Production Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Released Production Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4177960005 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move items from one warehouse location to another.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action T&amp;ransfer Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4177960005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>T&amp;ransfer Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action T&amp;ransfer Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 648973827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new warehouse shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. &amp;Shipment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 648973827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. &amp;Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. &amp;Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1119230149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View ongoing assembly orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Assembly Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1119230149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4254209057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View items in the bin if the selected line contains a bin code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Bin Contents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4254209057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Contents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Bin Contents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3606140129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the customers that you trade with. From each customer card, you can open related information, such as sales statistics and ongoing orders, and you can define special prices and line discounts that you grant if certain conditions are met.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Customers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1554554962 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the products that you trade in. The item card can be of type Inventory or Service to specify if the item is a physical unit or a labor time unit. Here you also define if items in inventory or on incoming orders are automatically reserved for outbound documents and whether order tracking links are created between demand and supply to reflect planning actions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Items - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1554554962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 832802772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing movements between bins according to an advanced warehouse configuration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Movements - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 832802772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Movements - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 312431886 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse picks. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Picks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 312431886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Picks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2307488147 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing put-aways.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Put-aways - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2307488147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Put-aways</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Put-aways - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4073709604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of shipping companies that you use to transport goods.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Shipping Agents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4073709604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Shipping Agents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3061233890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move inventory items between company locations. With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Transfer Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3061233890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Transfer Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 713531721 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the vendors that you trade with. From each vendor card, you can open related information, such as purchase statistics and ongoing orders, and you can define special prices and line discounts that the vendor grants you if certain conditions are met.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Vendors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 713531721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Vendors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4119549890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse receipts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseReceipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4119549890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseReceipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3394133634 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse receipts that are partially completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseReceiptsPartReceived - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3394133634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partially Received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseReceiptsPartReceived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 889814618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse shipments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShpt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 889814618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShpt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1651929933 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of completed warehouse picks.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptComplPicked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1651929933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely Picked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptComplPicked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4091489139 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse picks that are partially completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptPartPicked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4091489139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partially Picked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptPartPicked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2004638118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of ongoing warehouse shipments that are partially completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptPartShipped - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2004638118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partially Shipped</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptPartShipped - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3914191117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the list of released source documents that are ready for warehouse activities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptReleased - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3914191117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShptReleased - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1569466922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Setups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Administration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1838609307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Management Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Acumens Inventory QC Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2050463682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Restriction User Setups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Restriction User Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3898991482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Warehouse Restrictions action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Warehouse Restrictions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3898991482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Warehouse Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2935861323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Warehouse Restriction Status action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD WarehouseRestrictionStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2935861323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD WarehouseRestrictionStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2505993833 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Item Journal Templates action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Item JournalTemplates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2505993833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Item JournalTemplates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3264503566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Locations action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Location Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3264503566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Location Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3213244558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Warehouse Setup action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3213244558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1421138223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Whse. Journal Templates action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. Journal Templates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1421138223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. Journal Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2973329650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3707187114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Expired Lots</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Block Expired Lots - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2874117410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Lot Restriction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action AQD Update Lot Restriction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 65164665 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, save, or print mailing labels with the customers' names and addresses. The report can be used to send sales letters, for example.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Customer &amp;Labels - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 65164665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer &amp;Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Customer &amp;Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 363045002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Listing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action CustomerList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3111148961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action InventoryLabels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1633495091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Picking List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action InventoryPickingList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1376759559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Expiration - Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action ItemExpirationQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1144401969 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View shipping labels for posted sales shipments. You can print labels for all or specific orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Shipping Labels - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1144401969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Shipping Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3115676096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get an overview of warehouse bins, their setup, and the quantity of items within the bins.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse &amp;Bin List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3115676096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse &amp;Bin List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse &amp;Bin List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1248752835 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get an overview of warehouse bins, their setup, and the quantity of items within the bins.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse A&amp;djustment Bin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1248752835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse A&amp;djustment Bin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Warehouse A&amp;djustment Bin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1530642303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or print the list of the lines that you have calculated in the Warehouse Physical Inventory Journal window. You can use this report during the physical inventory count to mark down actual quantities on hand in the warehouse and compare them to what is recorded in the program.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. P&amp;hys. Inventory List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1530642303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. P&amp;hys. Inventory List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. P&amp;hys. Inventory List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2002646031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseShipmentStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 37342317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Group15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1720227611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Assembly Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1532302571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Stockkeeping Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Create Stockkeeping Unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1180040559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Inventory Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 991224529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Item Journal Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2933302576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Item Tracking Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 890861418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Locations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4003827319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstock Item Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Nonstock Item Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2345980193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Selections Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Report Selections Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1670942019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Routes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Transfer Routes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1079737925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Group4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 8647502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Assembly Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 966610113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3579008013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 141156897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Transfer Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1717434542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Group5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1280852974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2777758400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Direct Transfers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Direct Transfers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2382704685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Invt. Pick</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Pick - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2878051020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Invt. Put-away</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Put-away - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2543266615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Posted Inventory Receipts page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2543266615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 155881795 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Posted Inventory Shipments page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 155881795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Invt. Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1116965951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Purchase Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 245531330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Whse. Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 699376808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Return Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Return Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1550507244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Return Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Return Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1840709038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Sales Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3552081574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Whse. Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1037826143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Transfer Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 627180795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Posted Transfer Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1074715950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3659324010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjust the quantity of an item in a particular bin or bins. For instance, you might find some items in a bin that are not registered in the system, or you might not be able to pick the quantity needed because there are fewer items in a bin than was calculated by the program. The bin is then updated to correspond to the actual quantity in the bin. In addition, it creates a balancing quantity in the adjustment bin, for synchronization with item ledger entries, which you can then post with an item journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseItem Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3659324010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Item Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhseItem Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 502387840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepare to count inventories by preparing the documents that warehouse employees use when they perform a physical inventory of selected items or of all the inventory. When the physical count has been made, you enter the number of items that are in the bins in this window, and then you register the physical inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhsePhysInvtJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 502387840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Physical Inventory Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action WhsePhysInvtJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 97817805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Listing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Customer - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3885246329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Inventory Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4264797755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Picking List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Inventory Picking List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 4293722860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Expiration - Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Item Expiration - Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 983739117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Whse. Shipment Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1506462522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1781548914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan and initiate movements of items between bins according to an advanced warehouse configuration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action MovementWorksheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 1781548914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movement Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action MovementWorksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2049596008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan and initialize picks of items. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action PickWorksheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 2049596008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pick Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action PickWorksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3182521534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan and initialize item put-aways.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action PutawayWorksheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1482307757 - Action 3182521534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Put-away Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AcumensQualityControlMgtRC - Action PutawayWorksheets - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2887384721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Restriction Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1718,6 +2458,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD QA Split - Merge Lot No. - Control Unit of Measure Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 378676913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Management Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 620068062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control Item Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 3743083771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Restriction Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control AQD Item Restriction Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 828823522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control AQD Item Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 2935861323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control AQD WarehouseRestrictionStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 3682950422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control Warehouse Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 1367721772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Item Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control AQD Warehouse Item Restriction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 378676913 - Control 4173449775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Restrictions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD QualityControlMgActivities - Control AQD Warehouse Restriction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3923360641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reclass Item Restrictions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2247,6 +3027,831 @@
           <source>Restriction Codes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseRestrictionStatus - Action Restriction Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Management Role Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Orders &amp; Contacts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1119230149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3461615370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2320419527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3539855904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Credit Memos1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1424590445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 407220332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Purchase Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1548525519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2787772021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Order Confirmation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Return Order Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3435539207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 978510944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2778639561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 679121138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Return Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3061233890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Transfer Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 713531721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Vendors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 675038934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 37342317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1720227611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1532302571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Stockkeeping Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Create Stockkeeping Unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1180040559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 991224529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Journal Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2933302576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Tracking Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 890861418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Locations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4003827319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstock Item Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Nonstock Item Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2345980193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Selections Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Report Selections Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1670942019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Routes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Transfer Routes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3940806096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3090953702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Reclassification Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Reclass. Journals2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1451304824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Physical Inventory Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Phys. Inventory Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2368589222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Physical Inventory Counting Periods</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Phys. Invt. Counting Periods - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 149526480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze (group, summarize, pivot) your Item Ledger Entries with related Location master data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory by Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 149526480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze Inventory by Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory by Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3095279002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revaluation Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Revaluation Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3694612996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2390524947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly Orders2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 40596340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly Setup1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3056916379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3695682061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Assembly Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1612614122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group18 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 598141710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assemble to Order - Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assemble to Order - Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 994529672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Cost Share Distribution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action BOM Cost Share Distribution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 974917505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group19 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2054695267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM - End Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly BOM - Finished Goods - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3584763489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM - Raw Materials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly BOM - Raw Materials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3585989822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOM - Subassemblies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly BOM - Sub-Assemblies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3962139751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly BOMs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly BOMs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1941435189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Issue History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4205121719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Where-Used List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Where-Used List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 380834291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item - Able to Make (Timeline)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item - Able to Make (Timeline) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 710704177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Items1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2614886317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Planning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Order Planning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2253904178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Orders3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 732158132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Planning Worksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3504687331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Resources - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3747500767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group20 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 157642666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 90230088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group21 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1184708841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Creation Worksheet Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Creation Worksheet Templat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3924217818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4291239267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Put-away Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Put-away Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1421138223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Journal Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2319364862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Worksheet Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Worksheet Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 727926705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADCS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group22 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 437602321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADCS Users</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action ADCS Users - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 196040397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Miniform Functions Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Miniform Functions Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2039811386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Miniforms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Miniforms - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 889640937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Locations1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1090744453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Equipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Special Equipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3137888951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Classes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Classes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1238126080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Employees</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Employees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3213244558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2186222136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning &amp; Operations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4254209057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Contents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Contents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1070195701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Invt. Put-away/Pick</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Create Invt. Put-away/Pick - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1079737925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 8647502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Assembly Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 966610113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3579008013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 141156897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Transfer Orders1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1717434542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1280852974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Assembly Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Assembly Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2777758400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Direct Transfers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Direct Transfers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2382704685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Invt. Pick</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Pick - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2878051020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Invt. Put-away</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Put-away - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2543266615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Posted Inventory Receipts page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2543266615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 155881795 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Posted Inventory Shipments page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 155881795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Invt. Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1116965951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Purchase Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 245531330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Whse. Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 699376808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Return Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Return Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1550507244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Return Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Return Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1840709038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Sales Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3552081574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Whse. Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1037826143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Transfer Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 627180795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Transfer Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Posted Transfer Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4099311987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registers/Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3595318222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1297493793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Registers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Registers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1814405003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Navi&amp;gate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1814405003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Navi&amp;gate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3558109251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered Invt. Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Page7386 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 824154387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Physical Inventory Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Phys. Inventory Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 657227085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered Movements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Registered Movement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 568621342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered Picks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Registered Picks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1647260515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered Put-aways</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Registered Put-aways - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3990446950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Registers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Registers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2513602899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Value Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3183467001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 442041308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 97817805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Listing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Customer - List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3885246329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4264797755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Picking List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Picking List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4293722860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Expiration - Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Expiration - Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 983739117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Shipment Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3658503362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Movements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Internal Movement List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2784062847 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Receipts page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2784062847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4121165787 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Shipments page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4121165787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3169584124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Reclassification Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Reclass. Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4087909443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Tracing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1554554962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3645400930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movement Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Movement Worksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2824001411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nonstock Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Nonstock Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3814410536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pick Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Pick Worksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 797161937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Put-away Worksheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Put-away Worksheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4004840466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stockkeeping Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Stock keeping Units - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3630524393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Goods Handling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2419219762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 246385863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Internal Picks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Internal Picks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2277846210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Internal Put-aways</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Internal Put-aways - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 832802772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Movements - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 312431886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Picks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2307488147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Put-aways</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Put-aways - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1781523145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bins</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3533125173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Content Creation Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Content Creation Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2560707018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Contents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Contents1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 467751638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Creation Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Bin Creation Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1143826528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1177863851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Reclassification Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Item Reclass. Journals1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3534934628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Item Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Item Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1422055934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Phys. Invt. Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Phys. Invt. Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1846766782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Reclass. Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Reclass. Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 506129911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1228875736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Customer - Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1160328027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Listing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Customer - List2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3702312310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Put-away List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Put-away List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2223559510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Bin List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Bin List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 466381274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Movement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 1001148286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Register - Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Warehouse Register - Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 90129593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Posted Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. - Posted Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 911992109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Posted Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. - Posted Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3271498482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. - Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 701750798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. - Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 680884367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Adjustment Bin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Adjustment Bin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3290037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Phys. Inventory List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Phys. Inventory List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 31742838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Whse. Shipment Status1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4268221010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order by Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Group9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 2920024700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Picks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Picks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 3240216709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Put-aways</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Inventory Put-aways - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3461875374 - Action 4107827350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Movements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQDAcumensQualityControlMgtRC1 - Action Page9330 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3707187114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Block Expired Lots</source>
@@ -2912,6 +4517,36 @@
           <source>QA. Zone</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QAZone - Field AQD QA. Zone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1777518274 - Field 3743083771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2401365241">
+          <source>Item Restriction Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QCWarehouseWorkerWMSCueExt - Field AQD Item Restriction Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1777518274 - Field 828823522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2401365241">
+          <source>Item Restriction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QCWarehouseWorkerWMSCueExt - Field AQD Item Restrictions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1777518274 - Field 1367721772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2401365241">
+          <source>Warehouse Item Restriction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QCWarehouseWorkerWMSCueExt - Field AQD Warehouse Item Restriction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1777518274 - Field 4173449775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2401365241">
+          <source>Warehouse Restriction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QCWarehouseWorkerWMSCueExt - Field AQD Warehouse Restriction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1777518274 - Field 2935861323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2401365241">
+          <source>Warehouse Restriction Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AQD QCWarehouseWorkerWMSCueExt - Field AQD WarehouseRestrictionStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 1482307757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acumens Quality Control Management RC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile AQD AcumensQualityControlMgtRC - Property Caption</note>
         </trans-unit>
       </group>
     </body>

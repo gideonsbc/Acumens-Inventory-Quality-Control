@@ -363,10 +363,10 @@ page 14304114 "AQD Acumens Inventory QC Setup"
 
     local procedure CreateDummyLocation()
     begin
-        if not Location.Get('DUMMY') then begin
+        if not Location.Get('CONTROL') then begin
             Location.Init();
-            Location.Code := 'DUMMY';
-            Location.Name := 'Dummy Warehouse';
+            Location.Code := 'CONTROL';
+            Location.Name := 'Control Warehouse';
             Location.Insert();
         end;
     end;
