@@ -15,7 +15,7 @@ page 14304115 "AQD AcumensQualityControlMgtRC"
             part("AQD QualityControlMgActivities"; "AQD QualityControlMgActivities")
             {
                 ApplicationArea = Warehouse;
-                Caption = 'QualityControlMgActivities';
+                Caption = 'Acumens Quality Control Management Activities';
             }
             part(Control1901138408; "WMS Ship & Receive Activities")
             {
