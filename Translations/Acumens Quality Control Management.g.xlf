@@ -638,65 +638,70 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AQD QA Management - Method WhsEntryRestriction - NamedType RestError2</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 4103048997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>About Acumens Quality Control Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AQCM Version: %1</source>
+        <trans-unit id="Page 4103048997 - Control 2032171231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About the App</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text001</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control About - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CU Version: %1</source>
+        <trans-unit id="Page 4103048997 - Control 2014750533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text002</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control AppVersion - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AQCM Build Date: %1</source>
+        <trans-unit id="Page 4103048997 - Control 1430049525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dynamics 365 Business Central / NAV</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text003</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Dynamics 365 Business Central - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Acumens Quality Control Management includes following granules:</source>
+        <trans-unit id="Page 4103048997 - Control 1719262925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Version field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text004</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control BCVersion - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 2037309875" size-unit="char" translate="yes" xml:space="preserve">
-          <source>  * Quality Control Management</source>
+        <trans-unit id="Page 4103048997 - Control 1719262925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text00501</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control BCVersion - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 3950399726" size-unit="char" translate="yes" xml:space="preserve">
-          <source>  * Lot Restriction Quality Control</source>
+        <trans-unit id="Page 4103048997 - Control 844698329 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Platform field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text00502</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Platform - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
-          <source>© 2019-2026 SBC Dynamics ERP</source>
+        <trans-unit id="Page 4103048997 - Control 844698329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Platform</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text009</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Platform - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Version: %1</source>
+        <trans-unit id="Page 4103048997 - Control 4181767958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Application field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text010</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Application - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Build: %1</source>
+        <trans-unit id="Page 4103048997 - Control 4181767958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Application</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - NamedType Text011</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Application - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - Control 626795653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Acumens Quality Control Management</source>
+        <trans-unit id="Page 4103048997 - Control 233966722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Build field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - Control Acumens Quality Control Management - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control BCAppBuild - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4212852053 - Control 1430049525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dynamics 365 Business Central</source>
+        <trans-unit id="Page 4103048997 - Control 233966722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Build</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD About Acumens Inventory QC - Control Dynamics 365 Business Central - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control BCAppBuild - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4103048997 - Control 3650642145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Control Management Capabilities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD AboutAcumensQualityCMgt - Control Features - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acumens Quality Control Management Setup</source>
@@ -718,10 +723,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - NamedType Text003</note>
         </trans-unit>
-        <trans-unit id="Page 1838609307 - Control 2723019455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Warehouse Setups</source>
+        <trans-unit id="Page 1838609307 - Control 1518096625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Features</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA Warehouse Setups - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control Acumens Quality Control Features - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 2250167896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Allow DPP. Transfer field.</source>
@@ -752,6 +757,11 @@
           <source>Create Restrictions for Expired Lot.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD Create Rest. for Expired Lot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1838609307 - Control 2989893282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restriction Setups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control Acumens Restrictionl Setups - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 1600514255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Expired Lot Restriction Code field.</source>
@@ -793,13 +803,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD Inv. Counts Restriction Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1838609307 - Control 4182847700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD Number Series Setups - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1838609307 - Control 4147144339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the QA. Batch Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Batch No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 4147144339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>QA. Batch Name</source>
+          <source>QC Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Batch No. - Property Caption</note>
         </trans-unit>
@@ -809,7 +824,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Template Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 558721543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>QA. Template Name</source>
+          <source>QC Template Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Template Name - Property Caption</note>
         </trans-unit>
@@ -819,7 +834,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Warehouse Batch No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 2895429176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>QA. Warehouse Batch Name</source>
+          <source>QC Warehouse Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Warehouse Batch No. - Property Caption</note>
         </trans-unit>
@@ -829,7 +844,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Warehouse Template Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1838609307 - Control 1358807316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>QA. Warehouse Template Name</source>
+          <source>QC Warehouse Template Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Acumens Inventory QC Setup - Control AQD QA. Warehouse Template Name - Property Caption</note>
         </trans-unit>
@@ -2888,11 +2903,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD Warehouse Restrictions - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3898991482 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GroupName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD Warehouse Restrictions - Control GroupName - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 3898991482 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2932,11 +2942,6 @@
           <source>Acumens Quality Control Management is not enabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseItem Restrictions - NamedType AcumensInventoryQClbl</note>
-        </trans-unit>
-        <trans-unit id="Page 4127129037 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GroupName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseItem Restrictions - Control GroupName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4127129037 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Item No. field.</source>
@@ -2982,11 +2987,6 @@
           <source>Warehouse Restriction Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseRestrictionStatus - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2935861323 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GroupName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page AQD WarehouseRestrictionStatus - Control GroupName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2935861323 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Code field.</source>

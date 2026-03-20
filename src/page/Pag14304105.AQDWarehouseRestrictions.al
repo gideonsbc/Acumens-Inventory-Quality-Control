@@ -13,7 +13,7 @@ page 14304105 "AQD Warehouse Restrictions"
         {
             repeater(GroupName)
             {
-                Caption = 'GroupName';
+                //Caption = 'GroupName';
                 field(Status; Rec.Status)
                 {
                     ApplicationArea = All;
