@@ -12,7 +12,7 @@ page 14304106 "AQD WarehouseItem Restrictions"
         {
             repeater(GroupName)
             {
-                Caption = 'GroupName';
+                //Caption = 'GroupName';
                 field("Item No."; Rec."Item No.")
                 {
                     ApplicationArea = All;

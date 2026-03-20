@@ -12,7 +12,7 @@ page 14304109 "AQD WarehouseRestrictionStatus"
         {
             repeater(GroupName)
             {
-                Caption = 'GroupName';
+                //Caption = 'GroupName';
                 field("Code"; Rec.Code)
                 {
                     ApplicationArea = All;
