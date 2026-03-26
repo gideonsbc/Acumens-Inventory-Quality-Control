@@ -31,7 +31,7 @@ table 14304105 "AQD Warehouse Item Restriction"
             TableRelation = "AQD Warehouse Restriction"."Code" where(Status = field("Restriction Status"));
             Caption = 'Restriction Code';
         }
-        field(4; Type; Enum "AQD Restriction Type")
+        field(4; Type; Enum "AQD QCRestriction Type")
         {
             Caption = 'Type';
         }

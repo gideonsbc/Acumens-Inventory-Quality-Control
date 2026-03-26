@@ -1,4 +1,4 @@
-permissionset 14304104 "AQD AQQCMPermission"
+permissionset 14304104 "AQD Acumens Quality Control"
 {
     Permissions = tabledata "AQD Item Restriction Entry"=RIMD,
         tabledata "AQD Item Restrictions"=RIMD,
@@ -38,5 +38,6 @@ permissionset 14304104 "AQD AQQCMPermission"
         page "AQD AcumensQualityControlMgtRC"=X,
         page "AQD QualityControlMgActivities"=X,
         page AQDAcumensQualityControlMgtRC1=X,
-        page "AQD AboutAcumensQualityCMgt"=X;
+        page "AQD AboutAcumensQualityCMgt"=X,
+        codeunit "AQD Acumens Quality Control AM"=X;
 }

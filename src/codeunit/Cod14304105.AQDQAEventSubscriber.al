@@ -508,12 +508,13 @@ codeunit 14304105 "AQD QA Event Subscriber"
             ItemRestrictionEntry.Reset();
             ItemRestrictionEntry.SetCurrentKey("Lot No.");
             ItemRestrictionEntry.SetFilter("Lot No.", LotNoFilter);
-            Navigate.InsertIntoDocEntry(DocumentEntry, Database::"AQD Item Restriction Entry", ItemRestrictionEntry.TableCaption(), ItemRestrictionEntry.Count);
+            DocumentEntry.InsertIntoDocEntry(Database::"AQD Item Restriction Entry", ItemRestrictionEntry.TableCaption(), ItemRestrictionEntry.Count);
+            //Navigate.InsertIntoDocEntry(DocumentEntry, Database::"AQD Item Restriction Entry", ItemRestrictionEntry.TableCaption(), ItemRestrictionEntry.Count); //<<< SBC-2026-03-24. 'InsertIntoDocEntry' is marked for removal
         end;
     end;
-
-    [EventSubscriber(ObjectType::Page, Page::Navigate, OnBeforeNavigateShowRecords, '', false, false)]
-    local procedure OnBeforeShowRecords(TableID: Integer; var TempDocumentEntry: Record "Document Entry" temporary; var IsHandled: Boolean)
+    //<<< SBC-2026-03-24. 'OnBeforeNavigateShowRecords' is marked for removal
+    /*[EventSubscriber(ObjectType::Page, Page::Navigate, OnBeforeNavigateShowRecords, '', false, false)]
+    local procedure OnBeforeNavigateShowRecords(TableID: Integer; var TempDocumentEntry: Record "Document Entry" temporary; var IsHandled: Boolean)
     var
         ItemRestrictionEntry: Record "AQD Item Restriction Entry";
         Navigate: Page Navigate;
@@ -525,6 +526,28 @@ codeunit 14304105 "AQD QA Event Subscriber"
             ItemRestrictionEntry.SetFilter("Lot No.", TempDocumentEntry.GetFilter("Lot No. Filter"));
         end;
         case TableID of
+            Database::"AQD Item Restriction Entry":
+                begin
+                    PAGE.Run(0, ItemRestrictionEntry);
+                    IsHandled := true;
+                end;
+        end;
+    end;*/
+    //>>> SBC-2026-03-24. 'OnBeforeNavigateShowRecords' is marked for removal and replaced by OnBeforeShowRecords
+
+    [EventSubscriber(ObjectType::Page, Page::Navigate, OnBeforeShowRecords, '', false, false)]
+    local procedure OnBeforeShowRecords(var TempDocumentEntry: Record "Document Entry" temporary; DocNoFilter: Text; PostingDateFilter: Text; ItemTrackingSearch: Boolean; ContactNo: Code[250]; ExtDocNo: Code[250]; var IsHandled: Boolean);
+    var
+        ItemRestrictionEntry: Record "AQD Item Restriction Entry";
+        Navigate: Page Navigate;
+    begin
+        if (TempDocumentEntry.GetFilter("Lot No. Filter") = '') then exit;
+        if ItemRestrictionEntry.ReadPermission() then begin
+            ItemRestrictionEntry.Reset();
+            ItemRestrictionEntry.SetCurrentKey("Lot No.");
+            ItemRestrictionEntry.SetFilter("Lot No.", TempDocumentEntry.GetFilter("Lot No. Filter"));
+        end;
+        case TempDocumentEntry."Table ID" of
             Database::"AQD Item Restriction Entry":
                 begin
                     PAGE.Run(0, ItemRestrictionEntry);

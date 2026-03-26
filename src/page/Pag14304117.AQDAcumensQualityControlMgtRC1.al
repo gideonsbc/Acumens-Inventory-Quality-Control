@@ -2,6 +2,7 @@ page 14304117 "AQDAcumensQualityControlMgtRC1"
 {
     Caption = 'Acumens Quality Control Management Role Center';
     PageType = RoleCenter;
+    ApplicationArea = All;
     actions
     {
         area(Sections)
