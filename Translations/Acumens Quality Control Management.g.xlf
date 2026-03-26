@@ -598,6 +598,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AQD WarehouseRestrictionStatus - Field Enable Scrap - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2523926924 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You do not have license to access %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AQD Acumens Quality Control AM - NamedType Text001</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2926298900 - NamedType 1412534533" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 annual access license expires in %2 days.</source>
           <note from="Developer" annotates="general" priority="2"></note>

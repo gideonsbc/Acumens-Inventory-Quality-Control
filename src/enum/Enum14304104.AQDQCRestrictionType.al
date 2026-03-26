@@ -1,4 +1,4 @@
-enum 14304104 "AQD Restriction Type"
+enum 14304104 "AQD QCRestriction Type"
 {
     Extensible = true;
 
