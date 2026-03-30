@@ -194,10 +194,9 @@ page 14304113 "AQD AboutAcumensQualityCMgt"
     trigger OnOpenPage()
     begin
         AboutAppTxt :=
-          'Acumens Quality Control Management enables you to ensure that items received, stored, or produced meet defined quality standards before being released for use or sale within Microsoft Dynamics 365 Business Central. ' +
-          'This feature supports the planning, production, quality inspection, storage, and tracking of products from acquisition through to the point of sale.' +
-          'The application helps you enforce structured quality inspections, record critical metrics, and ensure supplier and manufacturing processes meet compliance and performance standards. ' +
-          'Designed to optimize decision-making and drive continuous improvement across the supply chain.';
+          'Acumens Quality Control Management is an app designed to embed quality control processes into inventory management within Business Central. ' +
+          'This feature enforces structured quality inspections, record critical metrics, and ensure supplier and manufacturing processes meet compliance and performance standards. ' +
+          'It is designed to optimize decision-making and drive continuous improvement across the supply chain.';
 
         WarehouseRestrictionsTxtVar := '* Warehouse Restrictions';
         WarehouseItemRestrictionsTxtVar := '* Warehouse Item Restrictions';
