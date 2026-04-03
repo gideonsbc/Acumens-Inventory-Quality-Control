@@ -8,9 +8,9 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     // SBCNP 2022-01-08 Authorize.Net
     //                   Modified functions: AccessManager,
     //                   New function: CheckClientAllowedGranules,GetCalledFromGranule
-    // SBCNP 2023-10-22 Acumens Quality Control Management
+    // SBCNP 2023-10-22 Acumens Defective Inventory Management
     //                  Rewrite codeunit using functions from Acumens Licensing and Registration App
-    // SBCNP 2023-11-11 Acumens Quality Control Management
+    // SBCNP 2023-11-11 Acumens Defective Inventory Management
     //                  Updated condition to include expiration Date = ControlDate and countDown
 
     var
@@ -25,8 +25,8 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     end;
 
     /* var
-        Text001: Label 'You do not have license to access Acumens Quality Control Management.';
-        Text002: Label 'You do not have license to access Acumens Quality Control Management: %1.'; */
+        Text001: Label 'You do not have license to access Acumens Defective Inventory Management.';
+        Text002: Label 'You do not have license to access Acumens Defective Inventory Management: %1.'; */
 
 
     /// <summary>
@@ -80,7 +80,7 @@ codeunit 14304108 "AQD Inventory QC Access Mgt."
     begin
         case GranuleCode of
             'AQCM01':
-                exit('Acumens Quality Control Management');
+                exit('Acumens Defective Inventory Management');
         // 'AEP03':
         //     exit('Batch Payment Processing');
         // 'AEP04':

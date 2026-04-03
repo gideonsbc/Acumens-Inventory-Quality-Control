@@ -6,7 +6,7 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
         {
             group("AQD QA. Managment")
             {
-                Caption = 'Acumens Quality Control Management';
+                Caption = 'Acumens Defective Inventory Management';
                 field("AQD Split Lot Template Name"; Rec."AQD Split Lot Template Name")
                 {
                     ApplicationArea = All;
@@ -34,25 +34,25 @@ pageextension 14304110 "AQD QAWarehouseSetup" extends "Warehouse Setup"
                 field("AQD QA. Template Name"; Rec."AQD QA. Template Name")
                 {
                     ApplicationArea = All;
-                    Caption = 'QA. Template Name';
+                    Caption = 'DIM. Template Name';
                     ToolTip = 'Specifies the value of the QA. Template Name field.';
                 }
                 field("AQD QA. Batch No."; Rec."AQD QA. Batch Name")
                 {
                     ApplicationArea = All;
-                    Caption = 'QA. Batch Name';
+                    Caption = 'DIM. Batch Name';
                     ToolTip = 'Specifies the value of the QA. Batch Name field.';
                 }
                 field("AQD QA. Warehouse Template Name"; Rec."AQD QA. Whse Template Name")
                 {
                     ApplicationArea = All;
-                    Caption = 'QA. Warehouse Template Name';
+                    Caption = 'DIM. Warehouse Template Name';
                     ToolTip = 'Specifies the value of the QA. Warehouse Template Name field.';
                 }
                 field("AQD QA. Warehouse Batch No."; Rec."AQD QA. Warehouse Batch Name")
                 {
                     ApplicationArea = All;
-                    Caption = 'QA. Warehouse Batch Name';
+                    Caption = 'DIM. Warehouse Batch Name';
                     ToolTip = 'Specifies the value of the QA. Warehouse Batch Name field.';
                 }
                 field("AQD Allow DPP. Transfer"; Rec."AQD Allow DPP. Transfer")

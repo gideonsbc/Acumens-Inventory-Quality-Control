@@ -1,6 +1,6 @@
 page 14304108 "AQD Item Restriction Entries"
 {
-    Caption = 'Item Restriction Entries';
+    Caption = 'Inventory Restriction Entries';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;

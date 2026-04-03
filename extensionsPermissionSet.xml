@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PermissionSets>
-  <PermissionSet RoleID="Acumens Quality Control Management" RoleName="Acumens Quality Control Management">
+  <PermissionSet RoleID="Acumens Defective Inventory Management" RoleName="Acumens Defective Inventory Management">
     <Permission>
       <ObjectID>14304104</ObjectID>
       <ObjectType>0</ObjectType>
@@ -332,16 +332,6 @@
       <SecurityFilter />
     </Permission>
     <Permission>
-      <ObjectID>14304113</ObjectID>
-      <ObjectType>8</ObjectType>
-      <ReadPermission>0</ReadPermission>
-      <InsertPermission>0</InsertPermission>
-      <ModifyPermission>0</ModifyPermission>
-      <DeletePermission>0</DeletePermission>
-      <ExecutePermission>1</ExecutePermission>
-      <SecurityFilter />
-    </Permission>
-    <Permission>
       <ObjectID>14304114</ObjectID>
       <ObjectType>8</ObjectType>
       <ReadPermission>0</ReadPermission>
@@ -373,6 +363,16 @@
     </Permission>
     <Permission>
       <ObjectID>14304117</ObjectID>
+      <ObjectType>8</ObjectType>
+      <ReadPermission>0</ReadPermission>
+      <InsertPermission>0</InsertPermission>
+      <ModifyPermission>0</ModifyPermission>
+      <DeletePermission>0</DeletePermission>
+      <ExecutePermission>1</ExecutePermission>
+      <SecurityFilter />
+    </Permission>
+    <Permission>
+      <ObjectID>14304113</ObjectID>
       <ObjectType>8</ObjectType>
       <ReadPermission>0</ReadPermission>
       <InsertPermission>0</InsertPermission>

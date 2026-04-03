@@ -1,6 +1,6 @@
 table 14304107 "AQD Item Restriction Entry"
 {
-    Caption = 'Item Restriction Entry';
+    Caption = 'Inventory Restriction Entry';
     LookupPageId = "AQD Item Restriction Entries";
     DrillDownPageId = "AQD Item Restriction Entries";
     DataClassification = CustomerContent;

@@ -1,6 +1,6 @@
 page 14304115 "AQD AcumensQualityControlMgtRC"
 {
-    Caption = 'Acumens Quality Control Management Role Center';
+    Caption = 'Acumens Defective Inventory Management Role Center';
     PageType = RoleCenter;
     ApplicationArea = All;
 
@@ -16,7 +16,7 @@ page 14304115 "AQD AcumensQualityControlMgtRC"
             part("AQD QualityControlMgActivities"; "AQD QualityControlMgActivities")
             {
                 ApplicationArea = Warehouse;
-                Caption = 'Acumens Quality Control Management Activities';
+                Caption = 'Acumens Defective Inventory Management Activities';
             }
             part(Control1901138408; "WMS Ship & Receive Activities")
             {
@@ -266,6 +266,46 @@ page 14304115 "AQD AcumensQualityControlMgtRC"
                 Image = BinContent;
                 RunObject = Page "Bin Contents List";
                 ToolTip = 'View items in the bin if the selected line contains a bin code.';
+            }
+            action("AQD Warehouse Restrictions2")
+            {
+                Image = RegisterPick;
+                RunObject = page "AQD Warehouse Restrictions";
+                ApplicationArea = All;
+                ToolTip = 'Executes the Warehouse Restrictions action.';
+                Caption = 'Warehouse Restrictions';
+            }
+            action("AQD WarehouseRestrictionStatus2")
+            {
+                Image = RegisterPick;
+                RunObject = page "AQD WarehouseRestrictionStatus";
+                ApplicationArea = All;
+                ToolTip = 'Executes the Warehouse Restriction Status action.';
+                Caption = 'Warehouse Restriction Status';
+            }
+            action("AQD WarehouseItem Restrictions")
+            {
+                Image = RegisterPick;
+                RunObject = page "AQD WarehouseItem Restrictions";
+                ApplicationArea = All;
+                ToolTip = 'Executes the Warehouse Inventory Restrictions action.';
+                Caption = 'Warehouse Inventory Restrictions';
+            }
+            action("AQD Item Restrictions")
+            {
+                Image = RegisterPick;
+                RunObject = page "AQD Item Restrictions";
+                ApplicationArea = All;
+                ToolTip = 'Executes the Inventory Restrictions action.';
+                Caption = 'Inventory Restrictions';
+            }
+            action("AQD Item Restriction Entries")
+            {
+                Image = RegisterPick;
+                RunObject = page "AQD Item Restriction Entries";
+                ApplicationArea = All;
+                ToolTip = 'Executes the Inventory Restriction Entries action.';
+                Caption = 'Inventory Restriction Entries';
             }
         }
         area(sections)
@@ -646,11 +686,11 @@ page 14304115 "AQD AcumensQualityControlMgtRC"
         {
             group(Administration)
             {
-                Caption = 'Acumens Quality Control Setups';
+                Caption = 'Acumens Defective Inventory Setups';
                 action("AQD Acumens Inventory QC Setup")
                 {
                     ApplicationArea = All;
-                    Caption = 'Acumens Quality Control Management Setup';
+                    Caption = 'Acumens Defective Inventory Management Setup';
                     Image = Setup;
                     RunObject = page "AQD Acumens Inventory QC Setup";
                 }
@@ -712,7 +752,7 @@ page 14304115 "AQD AcumensQualityControlMgtRC"
             }
             group(Tasks)
             {
-                Caption = 'Acumens Quality Control Tasks';
+                Caption = 'Acumens Defective Inventory Tasks';
                 action("AQD Block Expired Lots")
                 {
                     ApplicationArea = All;

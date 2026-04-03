@@ -6,7 +6,7 @@ pageextension 14304111 "AQD QALocationCard" extends "Location Card"
         {
             group("AQD Acumens Quality Control Management")
             {
-                Caption = 'Acumens Quality Control Management';
+                Caption = 'Acumens Defective Inventory Management';
                 field("AQD QA. Zone"; Rec."AQD QA. Zone")
                 {
                     ApplicationArea = All;
