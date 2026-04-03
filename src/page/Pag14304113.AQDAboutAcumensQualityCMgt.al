@@ -1,6 +1,6 @@
 page 14304113 "AQD AboutAcumensQualityCMgt"
 {
-    Caption = 'About Acumens Quality Control Management';
+    Caption = 'About Acumens Defective Inventory Management';
     Editable = false;
     LinksAllowed = false;
     ShowFilter = false;
@@ -31,7 +31,7 @@ page 14304113 "AQD AboutAcumensQualityCMgt"
             }
             group(Features)
             {
-                Caption = 'Quality Control Management Capabilities';
+                Caption = 'Defective Inventory Management Capabilities';
                 field(WarehouseRestrictionsTxtVar; WarehouseRestrictionsTxtVar)
                 {
                     ApplicationArea = All;
@@ -194,16 +194,17 @@ page 14304113 "AQD AboutAcumensQualityCMgt"
     trigger OnOpenPage()
     begin
         AboutAppTxt :=
-          'Acumens Quality Control Management is an app designed to embed quality control processes into inventory management within Business Central. ' +
-          'This feature enforces structured quality inspections, record critical metrics, and ensure supplier and manufacturing processes meet compliance and performance standards. ' +
-          'It is designed to optimize decision-making and drive continuous improvement across the supply chain.';
+          'Acumens Defective Inventory Management is an app designed to embed inspection processes into inventory management within Business Central. ' +
+          'This feature enforces structured quality inspections, record critical metrics, and ensures production and manufacturing processes meet compliance and performance standards. ' +
+          'The app allows for tracking and managing of defective Inventories before they disrupt production, therefore supporting informed decision-making and driving continuous improvement across the supply chain. ' +
+          'The solution is designed for industries that rely heavily on controlled inventory handling, including PET Foods, pet care supplies, and other sectors where lot tracking, quality restrictions, and compliance are essential.';
 
         WarehouseRestrictionsTxtVar := '* Warehouse Restrictions';
-        WarehouseItemRestrictionsTxtVar := '* Warehouse Item Restrictions';
+        WarehouseItemRestrictionsTxtVar := '* Warehouse Inventory Restrictions';
         LotRestrictionQualityControlTxtVar := '* Lot Restrictions';
         SplitMergeLotNoTxtVar := '* Split - Merge Lot';
-        ItemRestrictionsTxtVar := '* Item Restrictions';
-        ReclassItemRestrictionsTxtVar := '* Reclass Item Restrictions';
+        ItemRestrictionsTxtVar := '* Inventory Restrictions';
+        ReclassItemRestrictionsTxtVar := '* Reclass Inventory Restrictions';
     end;
 }
 

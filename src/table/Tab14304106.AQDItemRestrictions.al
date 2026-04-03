@@ -1,6 +1,6 @@
 table 14304106 "AQD Item Restrictions"
 {
-    Caption = 'Item Restrictions';
+    Caption = 'Inventory Restrictions';
     DataClassification = CustomerContent;
     fields
     {

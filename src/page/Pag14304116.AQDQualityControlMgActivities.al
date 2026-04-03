@@ -1,6 +1,6 @@
 page 14304116 "AQD QualityControlMgActivities"
 {
-    Caption = 'Acumens Quality Control Management Activities';
+    Caption = 'Acumens Defective Inventory Management Activities';
     PageType = CardPart;
     RefreshOnActivate = true;
     SourceTable = "Warehouse WMS Cue";
@@ -23,29 +23,29 @@ page 14304116 "AQD QualityControlMgActivities"
                 {
                     ApplicationArea = All;
                     DrillDownPageID = "AQD WarehouseItem Restrictions";
-                    Caption = 'Warehouse Item Restrictions';
-                }
-            }
-            cuegroup("Item Restrictions")
-            {
-                Caption = 'Item Restrictions';
-                field("AQD Item Restrictions"; Rec."AQD Item Restrictions")
-                {
-                    ApplicationArea = All;
-                    DrillDownPageID = "AQD Item Restrictions";
-                    Caption = 'Item Restrictions';
-                }
-                field("AQD Item Restriction Entry"; Rec."AQD Item Restriction Entry")
-                {
-                    ApplicationArea = All;
-                    DrillDownPageID = "AQD Item Restriction Entries";
-                    Caption = 'Item Restriction Entries';
+                    Caption = 'Warehouse Inventory Restrictions';
                 }
                 field("AQD WarehouseRestrictionStatus"; Rec."AQD WarehouseRestrictionStatus")
                 {
                     ApplicationArea = All;
                     DrillDownPageID = "AQD WarehouseRestrictionStatus";
                     Caption = 'Warehouse Restriction Status';
+                }
+            }
+            cuegroup("Item Restrictions")
+            {
+                Caption = 'Inventory Restrictions';
+                field("AQD Item Restrictions"; Rec."AQD Item Restrictions")
+                {
+                    ApplicationArea = All;
+                    DrillDownPageID = "AQD Item Restrictions";
+                    Caption = 'Inventory Restrictions';
+                }
+                field("AQD Item Restriction Entry"; Rec."AQD Item Restriction Entry")
+                {
+                    ApplicationArea = All;
+                    DrillDownPageID = "AQD Item Restriction Entries";
+                    Caption = 'Inventory Restriction Entries';
                 }
             }
         }

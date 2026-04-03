@@ -1,6 +1,6 @@
 page 14304117 "AQDAcumensQualityControlMgtRC1"
 {
-    Caption = 'Acumens Quality Control Management Role Center';
+    Caption = 'Acumens Defective Inventory Management Role Center';
     PageType = RoleCenter;
     ApplicationArea = All;
     actions

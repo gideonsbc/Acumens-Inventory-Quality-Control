@@ -18,7 +18,7 @@ pageextension 14304107 "AQD QAItemCard" extends "Item Card"
         {
             group("AQD Acumens Quality Control Management Promoted")
             {
-                Caption = 'Acumens Quality Control Management';
+                Caption = 'Acumens Defective Inventory Management';
                 actionref(AQDWarehouseItemRestrictions_Promoted; "AQD Warehouse Item Restrictions")
                 {
                 }

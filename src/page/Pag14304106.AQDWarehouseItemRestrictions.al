@@ -1,6 +1,6 @@
 page 14304106 "AQD WarehouseItem Restrictions"
 {
-    Caption = 'Warehouse Item Restrictions';
+    Caption = 'Warehouse Inventory Restrictions';
     PageType = List;
     ApplicationArea = All;
     SourceTable = "AQD Warehouse Item Restriction";
@@ -43,10 +43,10 @@ page 14304106 "AQD WarehouseItem Restrictions"
     trigger OnOpenPage()
     begin
         if not QASingleInstance.IsInventoryQualityControlEnabled() then
-            Error(AcumensInventoryQClbl);
+            Error(AcumensDefectiveInventoryManagementlbl);
     end;
 
     var
-        AcumensInventoryQClbl: Label 'Acumens Quality Control Management is not enabled';
+        AcumensDefectiveInventoryManagementlbl: Label 'Acumens Defective Inventory Management is not enabled';
         QASingleInstance: Codeunit "AQD QA Single Instance";
 }
