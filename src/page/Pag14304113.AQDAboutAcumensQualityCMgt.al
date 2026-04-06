@@ -197,7 +197,7 @@ page 14304113 "AQD AboutAcumensQualityCMgt"
           'Acumens Defective Inventory Management is an app designed to embed inspection processes into inventory management within Business Central. ' +
           'This feature enforces structured quality inspections, record critical metrics, and ensures production and manufacturing processes meet compliance and performance standards. ' +
           'The app allows for tracking and managing of defective Inventories before they disrupt production, therefore supporting informed decision-making and driving continuous improvement across the supply chain. ' +
-          'The solution is designed for industries that rely heavily on controlled inventory handling, including PET Foods, pet care supplies, and other sectors where lot tracking, quality restrictions, and compliance are essential.';
+          'The solution is designed for industries that rely heavily on controlled inventory handling such as food productions, care supplies, and any other sectors where lot tracking, quality restrictions, and compliance are essential.';
 
         WarehouseRestrictionsTxtVar := '* Warehouse Restrictions';
         WarehouseItemRestrictionsTxtVar := '* Warehouse Inventory Restrictions';
