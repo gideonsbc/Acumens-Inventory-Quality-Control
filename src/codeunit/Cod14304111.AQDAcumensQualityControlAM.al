@@ -10,11 +10,10 @@ Codeunit 14304111 "AQD Acumens Quality Control AM"
         if not AcumensLicensing.Checkifappislicensed(appid, appname) then
             DisableAppAccess(true, true);
     end;
-
     procedure DisableAppAccess(ShowMessage: Boolean; CalledFromLogin: Boolean): Boolean
     var
         AQAcumensDefectiveInventoryMgtSetup: Record "AQD Acumens Inventory QC Setup";
-        UnlicensedAppusers: Record "AQD Unlicensed App Users";
+        UnlicensedAppusers: Record "AQD AL Unlicensed App Users";
     begin
 
         if AQAcumensDefectiveInventoryMgtSetup.Get() and AQAcumensDefectiveInventoryMgtSetup."AQD Enabled" then begin
@@ -33,13 +32,11 @@ Codeunit 14304111 "AQD Acumens Quality Control AM"
         if ShowMessage and not CalledFromLogin then
             Error(Text001, 'Acumens Defective Inventory Management');
     end;
-
     procedure enableAppAccess(ShowMessage: Boolean; CalledFromLogin: Boolean): Boolean
     var
         AQAcumensDefectiveInventoryMgtSetup: Record "AQD Acumens Inventory QC Setup";
-        UnlicensedAppusers: Record "AQD Unlicensed App Users";
+        UnlicensedAppusers: Record "AQD AL Unlicensed App Users";
     begin
-
         if AQAcumensDefectiveInventoryMgtSetup.Get() and (AQAcumensDefectiveInventoryMgtSetup."AQD enabled") then begin
             UnlicensedAppusers.reset();
             UnlicensedAppusers.SetRange("User ID", UserId);
@@ -52,13 +49,10 @@ Codeunit 14304111 "AQD Acumens Quality Control AM"
 
     procedure CheckAppAccess(): Boolean
     var
-
-
     begin
         if not AcumensLicensing.Checkifappislicensed(appid, appname) then
             DisableAppAccess(true, false)
     end;
-
     var
         appid: Label '5be74ffc-2a5c-4eaa-a4b6-6200b3536cd3';
         appname: Label 'Acumens Defective Inventory Management';
