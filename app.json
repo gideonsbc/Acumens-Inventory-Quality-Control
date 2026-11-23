@@ -2,7 +2,7 @@
   "id": "5be74ffc-2a5c-4eaa-a4b6-6200b3536cd3",
   "name": "Acumens Defective Inventory Management",
   "publisher": "SBC Dynamics ERP", 
-  "version": "27.1026.1.5",
+  "version": "27.1026.1.6",
   "brief": "Acumens Defective Inventory Management is an app designed to embed inspection processes into inventory management within Business Central. This feature enforces structured quality inspections, record critical metrics, and ensures production and manufacturing processes meet compliance and performance standards.",
   "description": "Acumens Defective Inventory Management is an app designed to embed inspection processes into inventory management within Business Central. This feature enforces structured quality inspections, record critical metrics, and ensures production and manufacturing processes meet compliance and performance standards.",
   "privacyStatement": "https://www.sbcdynamicserp.com/privacy-policy/",
@@ -13,12 +13,6 @@
   "contextSensitiveHelpUrl": "https://www.sbcdynamicserp.com/support/?emailapp=yes",
   "applicationInsightsConnectionString": "InstrumentationKey=ba4686d0-d97a-4532-b53c-7ece85786a03;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=5a99d773-71c1-4ae0-86de-4989e2a06e51",
   "dependencies": [
-      {
-      "id": "ad778411-e5f3-4d7e-9077-37cde7758cdb",
-      "name": "Acumens Cash Flow Solutions",
-      "publisher": "SBC Dynamics ERP",
-      "version": "22.1023.1.68"
-    },
     {
       "id": "a5f567ec-9dad-491c-bda1-08a697706a9d",
       "name": "Acumens Licensing & Subscription Management",
